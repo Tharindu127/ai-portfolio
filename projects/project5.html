@@ -15,12 +15,14 @@
             --accent-dim: #00ffff15;
             --accent-glow: #00ffff40;
         }
+
         .project-hero {
             background: linear-gradient(135deg, #1a0e2e 0%, #0e1a2e 50%, #0e2e2e 100%);
         }
+
         .project-hero::before {
             background: radial-gradient(circle at 30% 50%, #00ffff12 0%, transparent 50%),
-                        radial-gradient(circle at 70% 50%, #ff00ff12 0%, transparent 50%);
+                radial-gradient(circle at 70% 50%, #ff00ff12 0%, transparent 50%);
         }
     </style>
 </head>
@@ -29,7 +31,8 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">THARINDU ATHAPATHTHU</div>
-            <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
+            <div class="hamburger"
+                onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
                 <span></span><span></span><span></span>
             </div>
             <ul class="nav-links">
@@ -82,6 +85,199 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
+        </div>
+    </section>
+
+    <!-- The Original Song -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>The Original Song</h2>
+            <p class="subtitle">A delicate Sinhala love ballad reimagined as a sassy pop-rap dancefloor anthem</p>
+        </div>
+        <div class="strategy-box">
+            <h3>රහසින් ඇවිත් මුමුනා ගියා (Rahasin Awith Mumuna Giya) — Whispered Softly and Left</h3>
+            <p>This project is built around <strong>"රහසින් ඇවිත් මුමුනා ගියා"</strong> by <strong>Surenie De
+                    Mel</strong> — a soft, dreamlike Sinhala ballad about a mysterious visitor who whispers sweet words
+                and vanishes. The song is all blue-eyed gazes, secret smiles, and longing for someone who appears only
+                in fragments. I reimagined it by flipping the gentle yearning into fierce, confident energy —
+                transforming the whispered plea into a 2026 Pop-Rap Disco-Trap fusion with Megan-style aggressive
+                verses, Doja-style melodic flows, and a full instrumental dance break.</p>
+        </div>
+        <div class="origin-grid">
+            <div class="origin-card">
+                <div class="origin-label">Artist</div>
+                <div class="origin-value"><span class="accent">Surenie De Mel</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Music</div>
+                <div class="origin-value"><span class="accent">Achala Solomans</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Lyrics</div>
+                <div class="origin-value"><span class="accent">Surenie De Mel</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Genre</div>
+                <div class="origin-value"><span class="accent">Sinhala Pop Ballad</span></div>
+            </div>
+        </div>
+        <div class="original-embed">
+            <div class="embed-icon"><i class="fab fa-youtube"></i></div>
+            <div class="embed-info">
+                <div class="embed-title">Listen to the Original Song</div>
+                <div class="embed-detail">රහසින් ඇවිත් මුමුනා ගියා — Surenie De Mel</div>
+            </div>
+            <a href="https://youtu.be/K7sA8PJJdwM?si=dfvpv2yQCx-zHHvz" target="_blank" class="embed-link"><i
+                    class="fab fa-youtube"></i> Watch on YouTube</a>
+        </div>
+    </section>
+
+    <!-- The Reimagination -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>The Reimagination</h2>
+            <p class="subtitle">From whispered Sinhala ballad to sassy pop-rap dancefloor anthem</p>
+        </div>
+        <div class="strategy-box">
+            <h3>Creative Process</h3>
+            <p>The reimagination completely inverted the song's emotional polarity while preserving its core imagery:
+                <strong>translating the lyrics</strong> transformed gentle yearning into fierce, confident declarations
+                — the blue eyes still watch, but now with power not vulnerability, <strong>restructuring the
+                    flow</strong> into a multi-style format with aggressive "Megan-style" rap verses, fast "Doja-style"
+                melodic flows, a high-speed verse 3, and a full instrumental dance break, and <strong>reimagining the
+                    sonic palette</strong> from a delicate acoustic ballad to a 2026 Disco-Trap fusion — groovy
+                basslines, beat switches to half-time, siren FX, and maximum-energy club production.</p>
+        </div>
+
+        <div class="lyrics-container">
+            <!-- Original Sinhala Lyrics -->
+            <div class="lyrics-box">
+                <div class="lyrics-header">
+                    <h4><i class="fas fa-scroll" style="margin-right: 8px;"></i> Original Sinhala Lyrics</h4>
+                    <span class="lyrics-badge">සිංහල</span>
+                </div>
+                <div class="lyrics-preview">රහසින් ඇවිත් මුමුනා ගියා
+                    එේ කියු වදන් සිත මත් කලා
+                    ආයෙත් ඇවිත් මට ලං වෙලා
+                    පවසන්නකෝ සිතු දේ ඔයා</div>
+                <div class="lyrics-full" id="sinhalaLyrics5">
+                    නිල් දෑසින් බලාවී මුවඟින් සිනාසී
+                    මොනවාද කොඳුරා කියාවී
+                    ඔබේ ආදරේ මා හදේ තුරුලු කරනා
+                    සදා පැතුම ඔබ වේ මගේ
+
+                    නෑ තාම නෑ ඔබ ආවෙ නෑ
+                    සිහිනෙන් වුවත් දුරස් වෙන්න බෑ
+                    යන්තම් ඔබේ රුව දුටුවෙ මා
+                    කොහෙදෝ ගියේ මා හැර දමා
+
+                    නිල් දෑසින් බලාවී මුවඟින් සිනාසී
+                    මොනවාද කොඳුරා කියාවී
+                    ඔබේ ආදරේ මා හදේ තුරුලු කරනා
+                    සදා පැතුම ඔබ වේ මගේ
+
+                    මලින් මලට ඉගිලී මා එන්නම්
+                    හදේ කවුලු ඇර මා බලන්නම්
+                    සිතින් සිතන දේ මා පතන්නම්
+                    එයයි මා පැතූ ආදරේ..
+
+                    නිල් දෑසින් බලාවී මුවඟින් සිනාසී
+                    මොනවාද කොඳුරා කියාවී
+                    ඔබේ ආදරේ මා හදේ තුරුලු කරනා
+                    සදා පැතුම ඔබ වේ මගේ</div>
+                <button class="lyrics-toggle" onclick="toggleLyrics('sinhalaLyrics5', this)">View Full Lyrics <i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+
+            <!-- Reimagined English Lyrics -->
+            <div class="lyrics-box">
+                <div class="lyrics-header">
+                    <h4><i class="fas fa-music" style="margin-right: 8px;"></i> Reimagined English Lyrics</h4>
+                    <span class="lyrics-badge">Reimagined</span>
+                </div>
+                <div class="lyrics-preview"><span class="lyrics-section-label">[Intro - The Original Sample Plays
+                        Here]</span>
+                    <span class="lyrics-section-label">[Instrumental Transition - Heavy Bass Drop & Siren FX]</span>
+                    (Yeah... MWS... We going all night)
+                    (Turn the bass up!)
+
+                    <span class="lyrics-section-label">[Verse 1 - Rap - "Megan Style" Flow - Aggressive & Sassy]</span>
+                    Okay, she said it sweet, but I'm bringing the heat
+                    Old school vibe with a brand new beat
+                </div>
+                <div class="lyrics-full" id="englishLyrics5">
+                    He lookin' at me with those eyes so blue
+                    But I need more than a peek-a-boo!
+                    Where you go? Did you dip? Did you ghost?
+                    I'm the queen of this scene, doing the most
+                    Blue eyes, big lies, but the smile is fire
+                    You're the only bad boy that I truly desire!
+                    (Check the switch up...)
+
+                    <span class="lyrics-section-label">[Pre-Chorus - Melodic Build Up]</span>
+                    I saw your face...
+                    (Don't make me chase...)
+                    Come back to my space.
+                    You know I need that...
+
+                    <span class="lyrics-section-label">[Chorus - Melodic Pop - Groovy]</span>
+                    With those blue eyes watching, smile so sweet
+                    Whispering secrets to the beat
+                    Holding your love inside my chest
+                    You're the dream, you're the best!
+
+                    <span class="lyrics-section-label">[Verse 2 - Rap - "Doja Style" Flow - Fast & Melodic]</span>
+                    I float like a butterfly, flower to flower
+                    Open up the window, yeah I'm feelin' the power
+                    Whatever you wish, yeah I wish it for me
+                    That's the kind of love that we need to see!
+                    Open the gates, let me look inside
+                    Ain't no secrets left, ain't nowhere to hide
+                    You're the wish, you're the want, you're the prize
+                    I can see the whole world in your deep blue eyes!
+
+                    <span class="lyrics-section-label">[Dance Break - Instrumental Trap Beat - 15 Seconds]</span>
+                    (Let the beat breathe...)
+                    (Go... go... go...)
+                    (Work it out!)
+
+                    <span class="lyrics-section-label">[Verse 3 - New Section - High Speed Flow]</span>
+                    Wait a minute, let me slow it down, then speed it up
+                    Got the magic in the potion, sipping from the cup
+                    If you leave me lonely, I'ma start a riot
+                    I don't do silence, I don't do quiet!
+                    Blue eyes flashing like a neon sign
+                    I'ma count to three, make you mine, mine, mine!
+                    One, two...
+                    (Make your move!)
+
+                    <span class="lyrics-section-label">[Final Chorus - Maximum Energy - Ad-libs & Layers]</span>
+                    With those blue eyes watching, smile so sweet!
+                    (So sweet!)
+                    Whispering secrets to the beat!
+                    (To the beat!)
+                    Holding your love inside my chest
+                    You're the dream, you're the best!
+
+                    <span class="lyrics-section-label">[Outro - Extended Fade]</span>
+                    (Yeah...)
+                    (Blue eyes...)
+                    (Don't you look away...)
+                    (MWS... We out.)
+                    [End]
+                </div>
+                <button class="lyrics-toggle" onclick="toggleLyrics('englishLyrics5', this)">View Full Lyrics <i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+        </div>
+
+        <!-- AI Music Prompt -->
+        <div class="prompt-display">
+            <div class="prompt-label"><i class="fas fa-robot" style="margin-right: 8px;"></i> SUNO Pro — AI Music Prompt
+            </div>
+            <div class="prompt-text">2026 Pop-Rap, Disco-Trap Fusion, 114 BPM, Extended Club Mix, Sassy Female Rap Flow,
+                Groovy Bassline, Beat Switch to Half-Time, Instrumental Dance Break, High-Fidelity Production,
+                Dancefloor Anthem.</div>
         </div>
     </section>
 
@@ -560,10 +756,20 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 AI Creator Portfolio | The Neon Chrysalis</p>
+        <p>&copy; 2025 Creative Portfolio | The Neon Chrysalis</p>
     </footer>
 
     <script src="../js/main.js"></script>
+    <script>
+        function toggleLyrics(id, btn) {
+            const el = document.getElementById(id);
+            el.classList.toggle('expanded');
+            btn.classList.toggle('active');
+            btn.innerHTML = el.classList.contains('expanded')
+                ? 'Hide Full Lyrics <i class="fas fa-chevron-up"></i>'
+                : 'View Full Lyrics <i class="fas fa-chevron-down"></i>';
+        }
+    </script>
 </body>
 
 </html>
