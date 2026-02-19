@@ -15,12 +15,14 @@
             --accent-dim: #daa52015;
             --accent-glow: #daa52040;
         }
+
         .project-hero {
             background: linear-gradient(135deg, #1a1408 0%, #1a1008 50%, #12100e 100%);
         }
+
         .project-hero::before {
             background: radial-gradient(circle at 30% 50%, #daa52012 0%, transparent 50%),
-                        radial-gradient(circle at 70% 50%, #ff634712 0%, transparent 50%);
+                radial-gradient(circle at 70% 50%, #ff634712 0%, transparent 50%);
         }
     </style>
 </head>
@@ -29,7 +31,8 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">THARINDU ATHAPATHTHU</div>
-            <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
+            <div class="hamburger"
+                onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
                 <span></span><span></span><span></span>
             </div>
             <ul class="nav-links">
@@ -82,6 +85,198 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
+        </div>
+    </section>
+
+    <!-- The Original Song -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>The Original Song</h2>
+            <p class="subtitle">A playful Sinhala village love song reimagined as a Middle Eastern dance banger</p>
+        </div>
+        <div class="strategy-box">
+            <h3>දෑසම රිද්දන (Daesama Riddana) — Eyes That Make You Dance</h3>
+            <p>This project is built around <strong>"දෑසම රිද්දන හසඟන තාලෙන"</strong> by <strong>Rookantha Gunathilaka &
+                    Nelu Adhikari</strong> — a beloved, playful Sinhala duet about a man mesmerized by a golden woman
+                walking past. The song's infectious "ටා රී රි රා" refrain, village charm, and flirtatious back-and-forth
+                energy made it the perfect foundation for a global reimagining. I transformed its rural Sri Lankan
+                sweetness into a 2026 Middle Eastern Pop anthem — heavy Darbuka "Dum-Tak" percussion, acoustic Arabic
+                instruments, and a desert-queen energy that turns the village girl into a goddess of the golden dunes.
+            </p>
+        </div>
+        <div class="origin-grid">
+            <div class="origin-card">
+                <div class="origin-label">Lyrics</div>
+                <div class="origin-value"><span class="accent">Dr. Ajantha Ranasinghe</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Music</div>
+                <div class="origin-value"><span class="accent">Rookantha Gunathilaka</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Singing</div>
+                <div class="origin-value"><span class="accent">Rookantha Gunathilaka</span> & <span class="accent">Nelu
+                        Adhikari</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Genre</div>
+                <div class="origin-value"><span class="accent">Sinhala Pop / Duet</span></div>
+            </div>
+        </div>
+        <div class="original-embed">
+            <div class="embed-icon"><i class="fab fa-youtube"></i></div>
+            <div class="embed-info">
+                <div class="embed-title">Listen to the Original Song</div>
+                <div class="embed-detail">දෑසම රිද්දන — Rookantha Gunathilaka & Nelu Adhikari</div>
+            </div>
+            <a href="https://youtu.be/TDv6sCPxyjM?si=zwNmZhkbMXv8omx0" target="_blank" class="embed-link"><i
+                    class="fab fa-youtube"></i> Watch on YouTube</a>
+        </div>
+    </section>
+
+    <!-- The Reimagination -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>The Reimagination</h2>
+            <p class="subtitle">From Sinhala village charm to Middle Eastern desert power</p>
+        </div>
+        <div class="strategy-box">
+            <h3>Creative Process</h3>
+            <p>The reimagination preserved the song's flirtatious duet energy and mesmerized-by-beauty core while
+                completely transforming its setting and sonic identity: <strong>translating the narrative</strong>
+                elevated the village girl into a desert queen whose walk generates percussion and commands elements,
+                <strong>restructuring the flow</strong> into male staccato rap verses, a female playful verse, a catchy
+                "Dum-Tak" chorus, and a Darbuka solo dance break, and <strong>reimagining the sonic palette</strong>
+                from Sinhala pop to a 2026 Middle Eastern banger — heavy Darbuka percussion, Oud and Kanun textures, and
+                an organic global dance energy.</p>
+        </div>
+
+        <div class="lyrics-container">
+            <!-- Original Sinhala Lyrics -->
+            <div class="lyrics-box">
+                <div class="lyrics-header">
+                    <h4><i class="fas fa-scroll" style="margin-right: 8px;"></i> Original Sinhala Lyrics</h4>
+                    <span class="lyrics-badge">සිංහල</span>
+                </div>
+                <div class="lyrics-preview">ටා රී රි රා - ටා රී රි රා
+                    ටා රී රි - රා රී රි රා
+                    දෑසම රිද්දන හසඟන තාලෙන පාද නගාගෙන -
+                    කවුද හැබෑටම මේ යන රන් ළන්දා</div>
+                <div class="lyrics-full" id="sinhalaLyrics6">
+                    කිව්වා නාහන මේ මගෙ දෑසම
+                    ඇසිපිය නොහෙලනවා
+                    මේ හැටි ලස්සන රූ වරුණාවට ඉබේට නැවතුන -
+                    හිටි පාදෙම ඔය කී රූ වරුණා
+                    මා ගැන නම් ඒ අහන්න ආසයි ආයෙම මයෙ වරුණා
+                    මල් පෙති වාගෙ පාද රිදේදෝ
+                    බොරළු පයේ ඇනිලා
+                    මා ගැන මන්දෝ මේ අනුකම්පා
+                    හිතට දුකක් දැනිලා
+                    ආලේ කුසුමෝ මා හිත පිපිලා
+                    සුවඳ හමනු දැනුනා
+                    දෑසම රිද්දන හසඟන තාලෙන පාද නගාගෙන -
+                    කවුද හැබෑටම මේ යන රන් ළන්දා.
+                    මා ගැන නම් ඒ අහන්න ආසයි ආයෙම මයෙ වරුණා
+                    පේර ද නාරං බෝවිටියා දං අපට කඩා දෙයිදෝ
+                    බුරුතු පිටින් මා වාරෙ අවාරෙ
+                    නෙළාන එන්නම්දෝ
+                    මේ ගුරු පාරේ මේ නෙතු ආයේ
+                    හෙටත් සිනාසේදෝ
+                    දෑසම රිද්දන හසඟන තාලෙන පාද නගාගෙන -
+                    කවුද හැබෑටම මේ යන රන් ළන්දා
+                    කිව්වා නාහන මේ මගෙ දෑසම
+                    ඇසිපිය නොහෙලනවා
+                    මේ හැටි ලස්සන රූ වරුණාවට ඉබේට නැවතුන -
+                    හිටි පාදෙම ඔය කී රූ වරුණා
+                    මා ගැන නම් ඒ අහන්න ආසයි ආයෙම මයෙ වරුණා
+                    ටා රී රි රා - ටා රී රි රා
+                    ටා රී රි - රා රී රි රා
+                    ටා රී රි රා - ටා රී රි රා
+                    ටා රී රි - රා රී රි රා</div>
+                <button class="lyrics-toggle" onclick="toggleLyrics('sinhalaLyrics6', this)">View Full Lyrics <i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+
+            <!-- Reimagined English Lyrics -->
+            <div class="lyrics-box">
+                <div class="lyrics-header">
+                    <h4><i class="fas fa-music" style="margin-right: 8px;"></i> Reimagined English Lyrics</h4>
+                    <span class="lyrics-badge">Reimagined</span>
+                </div>
+                <div class="lyrics-preview"><span class="lyrics-section-label">[Intro - The Original Sample Plays
+                        Here]</span>
+                    <span class="lyrics-section-label">[Instrumental Transition - Fast Darbuka Roll & Hand Claps]</span>
+                    (Yalla! MWS!)
+                    (Let the drums talk!)
+
+                    <span class="lyrics-section-label">[Verse 1 - Male - Rhythmic Staccato Flow]</span>
+                    [Beat: Heavy Dum-Tak-Dum-Tak]
+                    Stop. The. Walk.
+                </div>
+                <div class="lyrics-full" id="englishLyrics6">
+                    Let the body talk.
+                    Moving like a cobra, sliding on the sand
+                    Golden girl, you're the finest in the land!
+                    My eyes are burning, I cannot look away
+                    You froze the time, you froze the day!
+                    Every single step is hitting like a drum
+                    Tell me, habibi, where you coming from?
+
+                    <span class="lyrics-section-label">[Chorus - Male & Female - Melodic & Catchy]</span>
+                    Shaking the ground with the rhythm of your feet
+                    (Dum-Tak! Dum-Tak!)
+                    Walking so high, yeah you bringing the heat
+                    (Dum-Tak! Dum-Tak!)
+                    Who is the girl with the gold on her skin?
+                    Open up your heart, baby let me come in!
+                    (Yalla, dance!)
+
+                    <span class="lyrics-section-label">[Instrumental Dance Break - Darbuka Solo]</span>
+                    [Percussion Focus: Fast Drumming]
+                    (Hey! Hey! Hey! Hey!)
+
+                    <span class="lyrics-section-label">[Verse 2 - Female - Playful Flow]</span>
+                    Why you staring like you never seen a Queen?
+                    I'm the desert flower, best you ever seen!
+                    Does it hurt your eyes? Does it hurt your soul?
+                    Watching me walk, losing all control!
+                    If you want the fruit, you better climb the palm
+                    Break the silence, break the calm!
+                    Tomorrow on the road, I will walk on by
+                    Catch me if you can, don't be shy!
+
+                    <span class="lyrics-section-label">[Bridge - Tempo Slows Down - Oud & Vocals]</span>
+                    (My eyes won't blink...)
+                    (My feet won't stop...)
+                    (Wait for the drop...)
+                    [Fast Drum Roll Build Up]
+
+                    <span class="lyrics-section-label">[Final Chorus - Maximum Percussion Energy]</span>
+                    Shaking the ground with the rhythm of your feet!
+                    (Dum-Tak! Dum-Tak!)
+                    Walking so high, yeah you bringing the heat!
+                    (Dum-Tak! Dum-Tak!)
+                    Who is the girl with the gold on her skin?
+                    Open up your heart, baby let me come in!
+
+                    <span class="lyrics-section-label">[Outro - Fading Drums and Zaghrouta]</span>
+                    (Habibi...)
+                    (See you tomorrow...)
+                    (MWS.)
+                    [End]
+                </div>
+                <button class="lyrics-toggle" onclick="toggleLyrics('englishLyrics6', this)">View Full Lyrics <i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+        </div>
+
+        <!-- AI Music Prompt -->
+        <div class="prompt-display">
+            <div class="prompt-label"><i class="fas fa-robot" style="margin-right: 8px;"></i> SUNO Pro — AI Music Prompt
+            </div>
+            <div class="prompt-text">2026 Middle Eastern Pop, Heavy Darbuka Percussion, Fast "Dum-Tak" Belly Dance
+                Rhythm, 110 BPM, Acoustic Arabic Instruments (Oud, Kanun), Male & Female Duet, Energetic and Organic,
+                Global Dance Banger.</div>
         </div>
     </section>
 
@@ -569,10 +764,20 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 AI Creator Portfolio | The Runic Queen of the Golden Dunes</p>
+        <p>&copy; 2025 Creative Portfolio | The Runic Queen of the Golden Dunes</p>
     </footer>
 
     <script src="../js/main.js"></script>
+    <script>
+        function toggleLyrics(id, btn) {
+            const el = document.getElementById(id);
+            el.classList.toggle('expanded');
+            btn.classList.toggle('active');
+            btn.innerHTML = el.classList.contains('expanded')
+                ? 'Hide Full Lyrics <i class="fas fa-chevron-up"></i>'
+                : 'View Full Lyrics <i class="fas fa-chevron-down"></i>';
+        }
+    </script>
 </body>
 
 </html>
