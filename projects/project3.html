@@ -15,12 +15,14 @@
             --accent-dim: #dc143c15;
             --accent-glow: #dc143c40;
         }
+
         .project-hero {
             background: linear-gradient(135deg, #1a0e10 0%, #1a0a12 50%, #10101a 100%);
         }
+
         .project-hero::before {
             background: radial-gradient(circle at 30% 50%, #dc143c12 0%, transparent 50%),
-                        radial-gradient(circle at 70% 50%, #ff69b412 0%, transparent 50%);
+                radial-gradient(circle at 70% 50%, #ff69b412 0%, transparent 50%);
         }
     </style>
 </head>
@@ -29,7 +31,8 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">THARINDU ATHAPATHTHU</div>
-            <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
+            <div class="hamburger"
+                onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
                 <span></span><span></span><span></span>
             </div>
             <ul class="nav-links">
@@ -82,6 +85,185 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
+        </div>
+    </section>
+
+    <!-- The Original Song -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>The Original Song</h2>
+            <p class="subtitle">A cinematic Sinhala ballad reimagined as a nostalgic electronic duet</p>
+        </div>
+        <div class="strategy-box">
+            <h3>මතකද හැන්දෑවේ (Mathakada Handawe) — Remember That Evening</h3>
+            <p>This project is built around <strong>"මතකද හැන්දෑවේ"</strong> — a hauntingly beautiful Sinhala duet from
+                the 2011 cricket film <strong>Sinhawalokanaya</strong>. The song paints a bittersweet landscape of
+                fading stars, rain-soaked memories, and a love that lingers as feeling long after the person has gone. I
+                reimagined it by translating its poetic Sinhala imagery into atmospheric English and transforming the
+                acoustic production into a 2026 Melodic Pop soundscape — pulsating synth bass, atmospheric rain
+                textures, and crisp electronic drums with a cinematic, nostalgic quality.</p>
+        </div>
+        <div class="origin-grid">
+            <div class="origin-card">
+                <div class="origin-label">Film</div>
+                <div class="origin-value"><span class="accent">Sinhawalokanaya</span><br>The Cricket Film (2011)</div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Original Artists</div>
+                <div class="origin-value"><span class="accent">Raini Charuka</span> & <span class="accent">Ruwan
+                        Hettiarachchi</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Lyricist</div>
+                <div class="origin-value"><span class="accent">Nilar M. Cassim</span><br>Veteran industry lyricist</div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Composer / Producer</div>
+                <div class="origin-value"><span class="accent">Ravihans</span><br>(Ravihansa Wetakepotha)</div>
+            </div>
+        </div>
+        <div class="original-embed">
+            <div class="embed-icon"><i class="fab fa-youtube"></i></div>
+            <div class="embed-info">
+                <div class="embed-title">Listen to the Original Song</div>
+                <div class="embed-detail">මතකද හැන්දෑවේ — Raini Charuka & Ruwan Hettiarachchi (2011)</div>
+            </div>
+            <a href="https://youtu.be/4Iu7r8qwqJs?si=-jPbL5wftk2OfhBr" target="_blank" class="embed-link"><i
+                    class="fab fa-youtube"></i> Watch on YouTube</a>
+        </div>
+    </section>
+
+    <!-- The Reimagination -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>The Reimagination</h2>
+            <p class="subtitle">From acoustic Sinhala ballad to atmospheric electronic pop</p>
+        </div>
+        <div class="strategy-box">
+            <h3>Creative Process</h3>
+            <p>The reimagination preserved the song's aching nostalgia and rain-drenched imagery while transforming it
+                across three layers: <strong>translating the lyrics</strong> into emotionally vivid English that
+                captures the "fading stars" and "purple darkness" metaphors, <strong>restructuring the flow</strong>
+                into a modern chorus-hook-verse format with a powerful synth-driven final chorus, and
+                <strong>reimagining the sonic palette</strong> from an acoustic film ballad to a 2026 Melodic Pop
+                production — atmospheric rain textures woven into the mix, pulsating synth bass, and crisp electronic
+                drums creating a cinematic, nostalgic soundscape.
+            </p>
+        </div>
+
+        <div class="lyrics-container">
+            <!-- Original Sinhala Lyrics -->
+            <div class="lyrics-box">
+                <div class="lyrics-header">
+                    <h4><i class="fas fa-scroll" style="margin-right: 8px;"></i> Original Sinhala Lyrics</h4>
+                    <span class="lyrics-badge">සිංහල</span>
+                </div>
+                <div class="lyrics-preview">අහසේ තරු කැන් නිවිලා දුකකින් වගේ
+                    අඳුරේ හෑඬුවා රහසේ
+                    තනිකම ඉහිලුම් නොදේ
+                    ගිලුනා හද මා අඳුරේ</div>
+                <div class="lyrics-full" id="sinhalaLyrics3">
+                    ඔබ පෙරදා ආදරේන් මා ලගින් උන් හැටී
+                    එහි සැමරුම් රූ තමයි ජීවිතේ
+
+                    මතකද හැන්දෑවේ අපි දෙන්නා මන්දාරම් අඳුරේ දවසක් දා මල් වැස්සේ තෙමුනා
+                    මතකද හැන්දෑවේ අපි දෙන්නා මන්දාරම් අඳුරේ දවසක් දා මල් වැස්සේ තෙමුනා
+
+                    තනිකම් දැනුනත් හිතට මතකය නැහැ නික්මිලා
+                    මනරම් හැඟුම් දහස සොඳුරේ ඔබමයි සැමදා
+
+                    ඔබ පෙරදා ආදරේන් මා ලගින් උන් හැටී
+                    එහි සැමරුම් රූ තමයි ජීවිතේ
+
+                    මතකද හැන්දෑවේ අපි දෙන්නා මන්දාරම් අඳුරේ දවසක් දා මල් වැස්සේ තෙමුනා
+                    මතකද හැන්දෑවේ අපි දෙන්නා මන්දාරම් අඳුරේ දවසක් දා මල් වැස්සේ තෙමුනා
+
+                    සුසුමේ වෙලී උණුසුම් වෙවී වස්සානයේ අප ළං වූ හැටී
+                    හිරිමල් හිතේ හීනයක් වගේ හීනයක්ද ගීතයක්ද මේ ජීවිතේ
+
+                    ඔබ පෙරදා ආදරේන් මා ලගින් උන් හැටී
+                    එහි සැමරුම් රූ තමයි ජීවිතේ
+
+                    මතකද හැන්දෑවේ අපි දෙන්නා මන්දාරම් අඳුරේ දවසක් දා මල් වැස්සේ තෙමුනා
+                    මතකද හැන්දෑවේ අපි දෙන්නා මන්දාරම් අඳුරේ දවසක් දා මල් වැස්සේ තෙමුනා
+                    මතකද හැන්දෑවේ අපි දෙන්නා මන්දාරම් අඳුරේ දවසක් දා මල් වැස්සේ තෙමුනා
+                    මතකද හැන්දෑවේ අපි දෙන්නා මන්දාරම් අඳුරේ දවසක් දා මල් වැස්සේ තෙමුනා</div>
+                <button class="lyrics-toggle" onclick="toggleLyrics('sinhalaLyrics3', this)">View Full Lyrics <i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+
+            <!-- Reimagined English Lyrics -->
+            <div class="lyrics-box">
+                <div class="lyrics-header">
+                    <h4><i class="fas fa-music" style="margin-right: 8px;"></i> Reimagined English Lyrics</h4>
+                    <span class="lyrics-badge">Reimagined</span>
+                </div>
+                <div class="lyrics-preview"><span class="lyrics-section-label">[Intro - Sound of soft rain and a lonely
+                        piano melody]</span>
+
+                    <span class="lyrics-section-label">[Chorus - Emotional and Building]</span>
+                    Stars fading in the sky
+                    Like they're starting to cry
+                    In the dark, all alone
+                    This house is not a home
+                </div>
+                <div class="lyrics-full" id="englishLyrics3">
+                    I'm sinking in the deep
+                    Promises we couldn't keep
+                    Remember how it felt back then?
+                    Holding me close, again and again.
+
+                    <span class="lyrics-section-label">[Hook - The "Rain" Motif]</span>
+                    Do you remember that night?
+                    Under the dark purple light?
+                    Lost in the summer rain
+                    Drowning out all the pain
+                    Yeah, we were soaked in the rain
+                    Drowning out all the pain.
+
+                    <span class="lyrics-section-label">[Verse 1 - Rhythmic Duet]</span>
+                    Lonely days, they never leave
+                    It's a ghost, I still believe
+                    Beautiful feelings, girl it's true
+                    Every thought is still of you
+                    The way you stood right by my side
+                    With nowhere left for us to hide
+                    (Remember that night...)
+
+                    <span class="lyrics-section-label">[Verse 2 - Smooth and Flowing]</span>
+                    Wrapped in a sigh, so warm and sweet
+                    Walking down that empty street
+                    Is this a dream or just a song?
+                    Where do we even belong?
+                    You were the only life I knew
+                    Everything I did was for you.
+
+                    <span class="lyrics-section-label">[Final Chorus - Full Production, Powerful Synths]</span>
+                    Stars fading in the sky!
+                    I'm sinking in the deep!
+                    Do you remember that night?
+                    Under the dark purple light?
+                    Lost in the summer rain
+                    Drowning out all the pain!
+
+                    <span class="lyrics-section-label">[Outro - Rain sound returns with a fading piano]</span>
+                    Do you remember?
+                    Under the purple sky...
+                    In the rain.
+                    [End - Thunder clap and Fade]
+                </div>
+                <button class="lyrics-toggle" onclick="toggleLyrics('englishLyrics3', this)">View Full Lyrics <i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+        </div>
+
+        <!-- AI Music Prompt -->
+        <div class="prompt-display">
+            <div class="prompt-label"><i class="fas fa-robot" style="margin-right: 8px;"></i> SUNO Pro — AI Music Prompt
+            </div>
+            <div class="prompt-text">2026 Melodic Pop, Mid-tempo Electronic, 100 BPM, Atmospheric Rain Textures,
+                Pulsating Synth Bass, Emotional Male & Female Duet, Crisp Electronic Drums, High-Fidelity Synthesis,
+                Nostalgic and Cinematic.</div>
         </div>
     </section>
 
@@ -509,10 +691,20 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 AI Creator Portfolio | The Red Umbrella's Promise</p>
+        <p>&copy; 2025 Creative Portfolio | The Red Umbrella's Promise</p>
     </footer>
 
     <script src="../js/main.js"></script>
+    <script>
+        function toggleLyrics(id, btn) {
+            const el = document.getElementById(id);
+            el.classList.toggle('expanded');
+            btn.classList.toggle('active');
+            btn.innerHTML = el.classList.contains('expanded')
+                ? 'Hide Full Lyrics <i class="fas fa-chevron-up"></i>'
+                : 'View Full Lyrics <i class="fas fa-chevron-down"></i>';
+        }
+    </script>
 </body>
 
 </html>
