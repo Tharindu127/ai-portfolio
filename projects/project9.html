@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosalina - AI Creator Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/project-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --accent: #ffd700;
+            --accent-alt: #32cd32;
+            --accent-dim: #ffd70015;
+            --accent-glow: #ffd70040;
+        }
+        .project-hero {
+            background: linear-gradient(135deg, #1a1508 0%, #0e1a0e 50%, #0e1a14 100%);
+        }
+        .project-hero::before {
+            background: radial-gradient(circle at 30% 50%, #ffd70012 0%, transparent 50%),
+                        radial-gradient(circle at 70% 50%, #32cd3212 0%, transparent 50%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">THARINDU ATHAPATHTHU</div>
+            <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../projects.html" class="active">Projects</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="project-hero">
+        <div class="container">
+            <a href="../projects.html" class="back-link" style="display: inline-block; margin-bottom: 20px;">← Back to
+                Projects</a>
+            <h1>Rosalina</h1>
+            <p class="tagline">A vibrant Puerto Rican narrative of love, loss, and redemption. One man's journey through
+                disappointment and self-discovery, told through traditional culture and modern beats</p>
+            <div class="project-meta">
+                <div class="meta-item">
+                    <div class="label">BPM</div>
+                    <div class="value">124</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">Camelot Key</div>
+                    <div class="value">9B</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">Scene Count</div>
+                    <div class="value">18</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">Cultural Setting</div>
+                    <div class="value">Puerto Rican</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase -->
+    <section class="content-section">
+        <div class="video-showcase">
+            <div class="section-header" style="border: none; padding: 0; margin-bottom: 30px;">
+                <h2>Final Result</h2>
+                <p class="subtitle">A story of disappointment, transformation, and colorful redemption</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/6Kkd3FxtHhM" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>Project Overview</h2>
+            <p class="subtitle">Crafting an authentic Puerto Rican narrative</p>
+        </div>
+        <div class="strategy-box">
+            <h3>Creative Vision</h3>
+            <p>"Rosalina" tells the story of a young Puerto Rican man experiencing romantic turmoil with three women,
+                each representing different aspects of his life and choices. Set against the backdrop of traditional
+                Puerto Rican interiors and contemporary nightlife, the project explores themes of guilt, disappointment,
+                and the journey toward self-redemption. The narrative unfolds through 18 carefully choreographed scenes
+                synchronized to a 124 BPM rhythm in 9B Camelot key, blending cultural authenticity with modern visual
+                storytelling.</p>
+            <div class="cultural-context">
+                <h4>Puerto Rican Cultural Authenticity</h4>
+                <p>The project prioritizes genuine representation of Puerto Rican culture through meticulous attention
+                    to
+                    traditional dress, interior design, and social dynamics. Each female character wears authentic
+                    Puerto
+                    Rican traditional dress with region-specific patterns and colors, while the settings—from the
+                    old-style living room to the traditional front door area and kitchen—reflect genuine Puerto Rican
+                    domestic architecture and aesthetic sensibilities. This cultural grounding transforms the narrative
+                    from generic relationship drama into specific cultural story about identity, tradition, and
+                    modernity's intersection.</p>
+            </div>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Narrative Arc: From Guilt to Transformation</h3>
+            <p>The story follows a clear emotional progression: guilt and frustration (living room scenes), attempted
+                reconciliation and continued loss (departure scenes), isolation and consequences (salon and wallet
+                scenes), and finally, the women's liberation and joy (dance sequences). The protagonist's journey from
+                surrounded by disappointed women to alone with his regrets creates powerful visual and emotional
+                contrast, while the women's transformation from accusers to liberated dancers suggests their freedom
+                from
+                his influence is the true resolution.</p>
+        </div>
+    </section>
+
+    <!-- Tools Used -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>Tools & Technology</h2>
+            <p class="subtitle">The creative arsenal behind Rosalina</p>
+        </div>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <img src="../images/tools/nano-banana.png" alt="nano-banana" class="icon">
+                <div class="name">Nano Banana Pro</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/veo.png" alt="veo" class="icon">
+                <div class="name">Veo 3.1</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/topaz.png" alt="topaz" class="icon">
+                <div class="name">Topaz Video AI</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/davinci-resolve.png" alt="davinci-resolve" class="icon">
+                <div class="name">DaVinci Resolve</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/suno.png" alt="suno" class="icon">
+                <div class="name">SUNO Pro</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/canva.png" alt="canva" class="icon">
+                <div class="name">Canva</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery-section" style="background: #0d0d0d; padding: 60px 20px;">
+        <div class="gallery-intro" style="max-width: 800px; margin: 0 auto 40px; text-align: center;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 15px; color: #fff;">Visual Development Journey</h2>
+            <p style="color: #888; font-size: 1.1rem;">24 images documenting the complete character and environment
+                creation process</p>
+        </div>
+        <div class="image-grid"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; max-width: 1400px; margin: 0 auto;">
+
+            <!-- Woman 1 Development (5 Images) -->
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img1.png" alt="Woman 1 - Headless Dress Reference"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number"
+                        style="color: #ff1493; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">Persona
+                        1 - Image 01</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Dress Structure Foundation</h4>
+                    <p style="color: #888; font-size: 0.95rem; line-height: 1.6;">Headless reference image establishing
+                        authentic Puerto Rican traditional dress structure. Research-based garment showcasing proper
+                        draping, fabric behavior, and traditional pattern placement without the distraction of facial
+                        features. This foundational image ensures cultural accuracy in costume design before character
+                        integration.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img2.png" alt="Woman 1 - Colorful Dress Profiles"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ff1493;">Persona 1 - Image 02</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Eye-Catching Pattern Design</h4>
+                    <p style="color: #888;">Changed to vibrant, colorful pattern with enhanced visual appeal. Generated
+                        comprehensive profile views—side, back, and front—against white background. These technical
+                        reference shots enable consistent wardrobe rendering across multiple scenes and camera angles,
+                        establishing the dress as recognizable character signature.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img3.png" alt="Woman 1 - Initial Full Figure"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ff1493;">Persona 1 - Image 03</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">First Complete Figure (Refinement
+                        Needed)</h4>
+                    <p style="color: #888;">Generated complete figure with head attached to dress, but facial features
+                        and skin tone didn't match Puerto Rican ethnic characteristics. This iteration revealed the
+                        challenge of AI maintaining cultural authenticity across body parts—the dress was culturally
+                        accurate but the generated face defaulted to generic features requiring ethnicity-specific
+                        regeneration.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img4.png" alt="Woman 1 - Puerto Rican Features Matched"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ff1493;">Persona 1 - Image 04</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Culturally Accurate Integration</h4>
+                    <p style="color: #888;">Successfully generated Puerto Rican woman's head with authentic ethnic
+                        features—appropriate skin tone, facial structure, and hair texture—properly matched to the
+                        traditional dress. This iteration achieved the essential cultural coherence between costume and
+                        character, ensuring the persona reads as genuinely Puerto Rican rather than costume on generic
+                        model.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img5.png" alt="Woman 1 - Facial Close-Up"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ff1493;">Persona 1 - Image 05</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">High-Detail Facial Reference</h4>
+                    <p style="color: #888;">Extreme close-up capturing full facial details with maximum clarity—skin
+                        texture, pore definition, eye color and structure, lip contours, and expression subtleties. This
+                        reference ensures consistent character recognition across 18 scenes shot from various angles and
+                        distances, functioning as the definitive identity anchor for Woman 1 throughout the narrative.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Woman 2 Development (3 Images) -->
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img6.png" alt="Woman 2 - Storefront Dress Reference"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #32cd32;">Persona 2 - Image 01</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Authentic Commercial Reference</h4>
+                    <p style="color: #888;">Storefront display photo of genuine Puerto Rican traditional dress in
+                        commercial retail context. Using real-world retail imagery as reference ensures maximum cultural
+                        authenticity—these dresses are actually sold and worn in Puerto Rican communities. The
+                        commercial photography also provides professional lighting and presentation standards to
+                        emulate.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img7.png" alt="Woman 2 - Complete Profile Views"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #32cd32;">Persona 2 - Image 02</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Character-Dress Integration</h4>
+                    <p style="color: #888;">Generated Puerto Rican woman wearing the storefront-referenced dress with
+                        culturally appropriate features from initial generation. All profile views (side, back, front)
+                        against white background provide complete 360-degree reference for consistent character
+                        positioning across multiple narrative scenes, ensuring she remains visually coherent regardless
+                        of camera angle.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img8.png" alt="Woman 2 - Facial Detail Shot"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #32cd32;">Persona 2 - Image 03</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Expression & Feature Definition</h4>
+                    <p style="color: #888;">Full facial close-up with maximum detail capturing her unique beauty and
+                        distinguishing features. This detailed reference establishes her specific identity within the
+                        three-woman ensemble, ensuring she remains visually distinct from the other female characters
+                        while maintaining family resemblance through shared cultural ethnic features and traditional
+                        styling.</p>
+                </div>
+            </div>
+
+            <!-- Woman 3 Development (3 Images) -->
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img9.png" alt="Woman 3 - AI-Driven Generation"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ffd700;">Persona 3 - Image 01</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Fully Synthesized Character</h4>
+                    <p style="color: #888;">Completely AI-driven generation synthesizing learned patterns from the
+                        previous two character development processes. No external reference image used—instead, the AI
+                        internalized the cultural requirements (Puerto Rican ethnicity, traditional dress accuracy,
+                        appropriate styling) and generated original character that maintains cultural authenticity while
+                        introducing visual variety to the ensemble cast.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img10.png" alt="Woman 3 - Profile Reference Set"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ffd700;">Persona 3 - Image 02</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Comprehensive Angle Documentation</h4>
+                    <p style="color: #888;">Generated comprehensive profile views (side, back, front) against white
+                        background. These technical references ensure consistent character positioning across the
+                        18-scene narrative, particularly important for the collective dance sequences where all three
+                        women must appear in frame simultaneously with maintained visual consistency despite varying
+                        distances and angles.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img11.png" alt="Woman 3 - Character Identity Close-Up"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ffd700;">Persona 3 - Image 03</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Distinctive Beauty Documentation</h4>
+                    <p style="color: #888;">Extreme facial close-up capturing unique beauty, expression nuances, and
+                        identifying characteristics. This reference establishes her as visually distinct from Women 1
+                        and 2 while maintaining cultural coherence—three different women who could believably exist in
+                        the same community, each with memorable, specific features rather than generic AI-generated
+                        sameness.</p>
+                </div>
+            </div>
+
+            <!-- Male Protagonist Development (4 Images) -->
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img12.png" alt="Protagonist - Frustrated Businessman"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #dc143c;">Persona 4 - Image 01</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">End-of-Day Exhaustion</h4>
+                    <p style="color: #888;">Generated Puerto Rican young man in formal business suit with
+                        half-unbuttoned shirt conveying end-of-workday exhaustion and emotional turmoil. The disheveled
+                        professional attire serves as visual shorthand for someone whose life is falling apart—he
+                        maintains the trappings of responsibility (the suit) while displaying visible cracks (unbuttoned
+                        shirt, tired posture, guilty expression).</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img13.png" alt="Protagonist - Upper Body Profiles"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #dc143c;">Persona 4 - Image 02</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Partial Profile Generation
+                        (Insufficient)</h4>
+                    <p style="color: #888;">Generated side, back, and front profiles against white background, but only
+                        upper half of body visible. While useful for close-up and medium shots, this incomplete
+                        reference proved insufficient for wide shots and full-body choreography required in scenes where
+                        he walks, sits, or interacts physically with the three women. Required complete regeneration.
+                    </p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img14.png" alt="Protagonist - Full Figure Profiles"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #dc143c;">Persona 4 - Image 03</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Complete Character Reference</h4>
+                    <p style="color: #888;">Re-generated all profiles showcasing complete full-figure imagery from head
+                        to feet. This comprehensive reference enables wide shots, full-body choreography in departure
+                        scenes, walking sequences in mall and barbershop, and seated postures in living room
+                        confrontations. The complete figure ensures consistent proportions and posture across all 18
+                        narrative scenes regardless of framing.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img15.png" alt="Protagonist - Emotional Close-Up"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #dc143c;">Persona 4 - Image 04</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Guilt & Exhaustion Definition</h4>
+                    <p style="color: #888;">Full facial close-up emphasizing tired, guilty expression—the emotional
+                        weight central to his character arc. This reference captures specific micro-expressions:
+                        downturned mouth suggesting regret, eyes conveying exhaustion and loss, overall facial tension
+                        indicating someone carrying emotional burden. These details ensure his emotional state remains
+                        consistent and readable across all scenes.</p>
+                </div>
+            </div>
+
+            <!-- Environment Backgrounds (3 Images) -->
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img16.png" alt="Background 1 - Traditional Living Room"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ffd700;">Environment 01</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Primary Narrative Space</h4>
+                    <p style="color: #888;">Old-style traditional Puerto Rican living room serving as emotional core of
+                        the narrative. Features authentic period furniture, warm earth tones with vibrant accent colors,
+                        religious imagery and family photographs on walls, traditional textiles as decorative elements.
+                        This space hosts the central accusation scene, guilt contemplation, Woman 1's departure and
+                        liberation dance—the living room as witness to complete emotional arc.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img17.png" alt="Background 2 - Front Door Interior"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ffd700;">Environment 02</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Threshold of Departure</h4>
+                    <p style="color: #888;">Front door interior area derived from living room aesthetic, maintaining
+                        architectural consistency in color palette and design language. This threshold space becomes
+                        symbolically loaded—the physical boundary between domestic sphere (conflict, obligation) and
+                        outside world (freedom, escape). Woman 2's kiss-and-leave scene transforms this architectural
+                        feature into emotional pivot point, where tenderness and finality coexist at the moment of
+                        crossing.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img18.png" alt="Background 3 - Kitchen Interior"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ffd700;">Environment 03</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Domestic Heart Dissolution</h4>
+                    <p style="color: #888;">Traditional Puerto Rican kitchen inspired by living room aesthetic,
+                        featuring period-appropriate appliances, colorful tile work, and authentic organizational
+                        layout. The kitchen represents domestic labor, sustenance, the heart of home—making it
+                        particularly poignant location for Woman 3's final departure. When she leaves this space, she
+                        abandons not just relationship but entire domestic structure he represents.</p>
+                </div>
+            </div>
+
+            <!-- Integrated Scene Compositions (4 Images) -->
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img19.png" alt="Integration Attempt 1 - Fashion Poses"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ff1493;">Integration 01</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">First Attempt: Fashion Photography
+                        Problem</h4>
+                    <p style="color: #888;">Initial integration of all four personas in living room defaulted to fashion
+                        photography conventions—confident model poses, stylized arrangements, polished presentation.
+                        Characters appear to be posing for advertisement rather than experiencing genuine conflict. The
+                        visual language contradicts narrative intent, demonstrating how AI interprets "people in room"
+                        through commercial photography training data rather than emotional storytelling framework.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img20.png" alt="Integration Attempt 2 - Composed Arrangement"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ff1493;">Integration 02</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Second Attempt: Random Arrangement Issue
+                    </h4>
+                    <p style="color: #888;">Refined prompt specifying "sitting and standing" positions, but result still
+                        emphasized fashion-forward postures and deliberate composition. While no longer uniformly posed,
+                        their body language remains too controlled, too aesthetically arranged. AI interpreted spatial
+                        directions (sit/stand) as compositional instructions rather than emotional states, producing
+                        pretty but emotionally empty tableau that fails to convey tension or accusation.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img21.png" alt="Integration Attempt 3 - Pleasant Conversation"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ff1493;">Integration 03</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Third Attempt: Happy Chat
+                        Miscommunication</h4>
+                    <p style="color: #888;">Generated closer framing with characters engaged in conversation, but
+                        emotional tone reads as pleasant discussion rather than confrontation. Proximity and engagement
+                        are correct, but facial expressions, gestures, and energy convey warmth and friendly connection.
+                        This directly contradicts core narrative requirement: women should appear disappointed,
+                        frustrated, accusatory; man should look guilty, defensive, overwhelmed by surrounding judgment.
+                    </p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img22.png" alt="Integration Final - Genuine Conflict"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #ff1493;">Integration 04</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Final Success: Authentic Emotional
+                        Conflict</h4>
+                    <p style="color: #888;">Breakthrough achieved through hyperspecific emotional keywords: "arguing,"
+                        "frustrated man," "disappointed women," "accusing gestures," "defensive posture," "guilty
+                        expression." Successfully generated intended scene—three women surrounding seated man with
+                        aggressive/withdrawn body language, his posture collapsed and defensive, facial expressions
+                        conveying complete relationship breakdown spectrum. Close-up framing intensifies claustrophobic
+                        sense of being trapped by consequences with no escape.</p>
+                </div>
+            </div>
+
+            <!-- Title Cards (2 Images) -->
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img23.png" alt="Opening Title - Rosalina"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #32cd32;">Title Card 01</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Opening Title: "Rosalina"</h4>
+                    <p style="color: #888;">Generated opening title card featuring the name "Rosalina" with typography
+                        and design elements that reference Puerto Rican cultural aesthetics—vibrant colors (green,
+                        yellow, pink, red), decorative flourishes, and visual energy that establishes the project's
+                        cultural context and emotional tone. The title design functions as promise of the colorful,
+                        culturally grounded narrative to follow, immediately orienting viewers within Puerto Rican
+                        visual language.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item"
+                style="position: relative; overflow: hidden; border-radius: 12px; background: #111; transition: transform 0.3s ease;">
+                <img src="../images/projects/project9/img24.png" alt="Closing Title - The End"
+                    style="width: 100%; height: 400px; object-fit: cover; display: block;">
+                <div class="gallery-caption" style="padding: 25px; background: #111;">
+                    <span class="number" style="color: #32cd32;">Title Card 02</span>
+                    <h4 style="color: #fff; margin: 10px 0; font-size: 1.3rem;">Closing Title: "The End"</h4>
+                    <p style="color: #888;">Generated closing title card reading "The End" maintaining visual
+                        consistency with opening design while providing emotional closure. The design suggests finality
+                        but also celebration—the women's liberation dance sequence that precedes this card transforms
+                        "The End" from melancholy conclusion into triumphant resolution. For the women, this ending
+                        represents beginning—freedom from relationship that constrained them, opportunity to reclaim joy
+                        and solidarity.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Character Development -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>Character Development Pipeline</h2>
+            <p class="subtitle">Iterative creation of culturally authentic personas</p>
+        </div>
+
+        <div class="persona-grid">
+            <div class="persona-card woman1">
+                <h3>Persona 1: Woman 1 (5-Image Evolution)</h3>
+                <div class="development-step">
+                    <p><strong>Image 1:</strong> Researched Puerto Rican traditional dress codes for young women.
+                        Generated reference image of headless figure wearing authentic Puerto Rican dress to establish
+                        garment structure and draping.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 2:</strong> Changed dress pattern to eye-catching colorful design. Generated side,
+                        back, and front profiles against white background for complete wardrobe reference.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 3:</strong> Generated complete figure with head, but ethnicity didn't match Puerto
+                        Rican characteristics—required refinement.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 4:</strong> Generated Puerto Rican ethnic woman's head with culturally accurate
+                        features, properly matched to the traditional dress.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 5:</strong> Created extreme close-up of face capturing full facial details, skin
+                        texture, and expression clarity for consistent character recognition across scenes.</p>
+                </div>
+            </div>
+
+            <div class="persona-card woman2">
+                <h3>Persona 2: Woman 2 (3-Image Process)</h3>
+                <div class="development-step">
+                    <p><strong>Image 1:</strong> Used storefront display photo as reference—authentic Puerto Rican
+                        traditional dress photographed in commercial context, ensuring cultural accuracy.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 2:</strong> Generated Puerto Rican woman wearing the referenced dress. Created all
+                        profiles (side, back, front) against white background for complete character consistency.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 3:</strong> Full facial close-up with maximum detail and clarity, establishing her
+                        unique features and expressions for scene-to-scene continuity.</p>
+                </div>
+            </div>
+
+            <div class="persona-card woman3">
+                <h3>Persona 3: Woman 3 (3-Image Creation)</h3>
+                <div class="development-step">
+                    <p><strong>Image 1:</strong> Fully AI-driven generation of Puerto Rican woman in traditional dress,
+                        synthesizing learned patterns from previous character development to create authentic
+                        representation.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 2:</strong> Generated comprehensive profile views (side, back, front) against white
+                        background, ensuring character can be consistently positioned across multiple scenes.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 3:</strong> Extreme facial close-up capturing unique beauty, expression nuances,
+                        and
+                        identifying characteristics for seamless integration across 18-scene narrative.</p>
+                </div>
+            </div>
+
+            <div class="persona-card man">
+                <h3>Persona 4: The Protagonist (4-Image Development)</h3>
+                <div class="development-step">
+                    <p><strong>Image 1:</strong> Generated Puerto Rican young man in formal suit with half-unbuttoned
+                        shirt, conveying exhaustion and frustration—visual shorthand for end-of-workday stress and
+                        emotional turmoil.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 2:</strong> Generated side, back, and front profiles against white background, but
+                        only upper half visible—insufficient for full-body scenes.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 3:</strong> Re-generated all profiles showcasing complete full-figure imagery,
+                        enabling wide shots and full-body choreography in narrative scenes.</p>
+                </div>
+                <div class="development-step">
+                    <p><strong>Image 4:</strong> Full facial close-up with emphasis on tired, guilty
+                        expression—capturing
+                        the emotional weight central to his character arc throughout the story.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Environment Creation -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>Environment Design</h2>
+            <p class="subtitle">Traditional Puerto Rican interior spaces</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Background 1: Traditional Living Room</h3>
+            <p>Generated old-style traditional Puerto Rican living room serving as the primary narrative space. Features
+                authentic furniture, color schemes (warm earth tones, vibrant accent colors), decorative elements
+                (religious imagery, family photographs, traditional textiles), and spatial layout typical of Puerto
+                Rican
+                homes. This space hosts the central confrontations and serves as the emotional core of the narrative—
+                where accusations occur, guilt manifests, and the protagonist sits alone with his regrets.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Background 2: Front Door Area</h3>
+            <p>Derived from the living room aesthetic, generated the front door interior area maintaining consistent
+                architectural style, color palette, and design language. This threshold space becomes symbolically
+                significant—the location of departures, the physical boundary between inside (domestic sphere, conflict)
+                and outside (freedom, escape). The second woman's kiss-and-leave scene occurs here, transforming this
+                architectural feature into emotional pivot point.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Background 3: Kitchen Interior</h3>
+            <p>Also inspired by the original living room, generated traditional Puerto Rican kitchen space complete with
+                period-appropriate appliances, tile work, and organizational aesthetics. The kitchen represents domestic
+                labor, sustenance, the heart of home—making it particularly poignant location for the third woman's
+                departure. Each background location carries specific emotional and symbolic weight within the larger
+                narrative architecture.</p>
+        </div>
+    </section>
+
+    <!-- Integration Challenges -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>Scene Composition: Iteration Toward Authenticity</h2>
+            <p class="subtitle">The challenge of integrating characters with narrative intent</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>First Attempt: The Fashion Pose Problem</h3>
+            <p>Initial integration placed all four personas in the living room setting, but the AI defaulted to fashion
+                photography conventions—model poses, confident stances, stylized arrangements. The characters looked
+                like
+                they were posing for a campaign rather than experiencing genuine emotional conflict. The visual language
+                contradicted the narrative intent: we needed tension, disappointment, and accusation, not polished
+                presentation.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Second Attempt: Random Arrangement Issue</h3>
+            <p>Refined the prompt to specify "sitting and standing" but the result still emphasized fashion-forward
+                postures. While the characters were no longer uniformly posed, their body language remained too
+                composed,
+                too deliberately arranged. The AI interpreted "standing" and "sitting" as compositional directions
+                rather
+                than emotional states, producing aesthetically pleasing but narratively empty tableau.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Third Attempt: The Happy Chat Miscommunication</h3>
+            <p>Generated closer framing with characters appearing to engage in conversation, but the emotional tone read
+                as pleasant discussion—friendly chat rather than confrontation. The proximity and engagement were
+                correct,
+                but the facial expressions, gestures, and overall energy conveyed warmth and connection. This directly
+                contradicted the core narrative: these women are disappointed, frustrated, accusatory; the man is
+                guilty,
+                defensive, overwhelmed.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Final Success: Capturing Genuine Conflict</h3>
+            <p>The breakthrough came from extremely specific emotional and postural keywords: "arguing," "frustrated
+                man," "disappointed women," "accusing gestures," "defensive posture," "guilty expression." This final
+                iteration successfully generated the intended scene—three women surrounding the seated man, their body
+                language aggressive or withdrawn, his posture collapsed and defensive, facial expressions conveying the
+                full spectrum of relationship breakdown. The close-up framing intensified the claustrophobic sense of
+                being surrounded by accusation with no escape.</p>
+            <div class="highlight-box">
+                <p><strong>Lesson Learned:</strong> AI image generation interprets aesthetic instructions more reliably
+                    than emotional ones. To achieve specific emotional content, prompts must be hyperspecific about
+                    facial expressions, body language, gestural vocabulary, and the relationships between figures—not
+                    just their spatial arrangement but their emotional dynamics. Generic terms like "tension" or "drama"
+                    produce generic results; precise descriptions of how tension manifests physically produce authentic
+                    emotional scenes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scene Breakdown -->
+    <section class="content-section" style="margin-top: 60px;">
+        <div class="section-header">
+            <h2>Complete Scene Breakdown</h2>
+            <p class="subtitle">18 scenes choreographed to 124 BPM in 9B Camelot</p>
+        </div>
+
+        <div class="scene-grid">
+            <div class="scene-card">
+                <span class="scene-number">Scene 01</span>
+                <h3>Drone Descent</h3>
+                <p>Cinematic drone shot begins at cloud level, slowly descending toward a Puerto Rican neighborhood.
+                    Camera finds specific house exterior, then continues movement through window or transition effect
+                    into
+                    interior matching the generated living room. Establishes geographic and cultural context while
+                    creating seamless exterior-to-interior transition that grounds the narrative in specific place.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 02</span>
+                <h3>Guilty Contemplation (Living Room)</h3>
+                <p>The protagonist sits alone in the living room, posture collapsed, face expressing guilt and internal
+                    conflict. He appears to be thinking about his mistakes, replaying events, confronting his role in
+                    the
+                    situation. Camera slowly pushes in toward him, tightening frame to emphasize isolation and internal
+                    turmoil. Multiple shot variations provide editing flexibility for pacing emotional beats to music.
+                    (124 BPM sync)</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 03</span>
+                <h3>Front Door Guilt</h3>
+                <p>Same emotional state and cinematography as Scene 2, but relocated to front door area interior. Visual
+                    variety maintains viewer engagement while the repeated emotional beat emphasizes the inescapability
+                    of
+                    his guilt—it follows him room to room, space offers no refuge from internal accusation. Location
+                    changes reinforce that this isn't momentary feeling but pervasive state.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 04</span>
+                <h3>Kitchen Guilt</h3>
+                <p>Third iteration of the contemplative guilt sequence, now in kitchen setting. The repetition across
+                    three distinct locations creates visual rhythm that mirrors the obsessive nature of guilt—thoughts
+                    that loop regardless of external environment. By the third iteration, viewers understand this is his
+                    constant state, not momentary reaction.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 05</span>
+                <h3>The Accusation (Living Room)</h3>
+                <p>Three women surround the seated man, gestures and expressions accusatory. They blame, argue, point—
+                    their body language aggressive while his is defensive and collapsed. Camera movement closes in on
+                    the
+                    confrontation, intensifying claustrophobic sense of being trapped by consequences of his actions.
+                    This
+                    scene visualizes what Scene 2-4 internalized: the accusations he hears in his head made external and
+                    physical.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 06</span>
+                <h3>Night Party Discussion</h3>
+                <p>Women discuss the protagonist's wrongdoings while he stands nearby at nightclub/party setting,
+                    frustrated and unable to defend himself. They're evaluating him in his presence, treating him as
+                    object of discussion rather than participant in conversation. The party setting—typically
+                    celebratory—
+                    becomes arena of judgment, social space transformed into court of public opinion.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 07</span>
+                <h3>Women's Liberation Dance (Club)</h3>
+                <p>Three women dance together happily, synchronized to 124 BPM in 9B Camelot. Their joy is palpable and
+                    infectious—this is liberation, freedom from the drama and disappointment he represents. They move
+                    together in solidarity, their shared rhythm suggesting mutual support and independence from him.
+                    Club
+                    setting emphasizes their choice to be in public space, visible, unburdened.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 08</span>
+                <h3>Night Party Dancing</h3>
+                <p>Continuation of the liberation dance theme, now in party setting with different lighting and
+                    atmosphere. Multiple shots generated provide editing variety while maintaining the essential
+                    message:
+                    these women have moved on, found joy independent of him, created their own narrative where he's no
+                    longer central character. Their synchronized dancing embodies collective strength. (124 BPM, 9B
+                    Camelot sync)</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 09</span>
+                <h3>Persona 1 Departure</h3>
+                <p>Woman 1 argues with the man in living room, their exchange heated. She leaves him disappointed and
+                    frustrated—her departure is decisive, final. Multiple shot variations capture different angles and
+                    emotional beats of the confrontation and exit. This is the first concrete departure, transforming
+                    abstract tension into narrative consequence: she chooses to leave.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 10</span>
+                <h3>Persona 2: The Kiss Goodbye</h3>
+                <p>Woman 2 appears at front door with luggage and bags—her departure is prepared, considered, not
+                    impulsive. The man follows, pleading, asking why she's leaving. She turns to him, kisses him (moment
+                    of tenderness amid finality), opens the door, and exits. The kiss complicates the narrative—it's not
+                    pure anger but sad recognition that love isn't sufficient reason to stay. The threshold becomes
+                    literal and symbolic boundary she crosses.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 11</span>
+                <h3>Post-Departure Devastation</h3>
+                <p>After Woman 2's departure, he remains by the front door, processing what happened. Frustration mixes
+                    with disbelief and loss. This quiet moment of realization—she actually left, this is real—provides
+                    emotional caesura between the departures, allowing the weight of consequences to register before the
+                    narrative continues.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 12</span>
+                <h3>Persona 3 Kitchen Exit</h3>
+                <p>Woman 3 argues with him in kitchen, then leaves, her departure making him disappointed and
+                    frustrated.
+                    By the third departure, pattern is established: regardless of location or specific dynamics, the
+                    result is the same—they all choose to leave. The kitchen setting (domestic heart of home) makes this
+                    final departure particularly symbolic of domestic life's complete dissolution.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 13</span>
+                <h3>Persona 1: Liberation Dance (Living Room)</h3>
+                <p>Woman 1 dances sensually and confidently to 124 BPM, 9B Camelot in the living room—the same space
+                    where she argued with him. Camera moves from distance to close-up, capturing her movements and
+                    beauty.
+                    Multiple shots emphasize her reclamation of this space, transforming site of conflict into space of
+                    personal expression. She's no longer defined by relationship with him.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 14</span>
+                <h3>Persona 2: Front Door Reclamation</h3>
+                <p>Woman 2 dances sensually at the front door area—the threshold she crossed to leave. Camera movement
+                    from distance to close-up captures her choreography and confidence. Dancing at the exit point
+                    suggests she's not fled but triumphantly departed, not escaping but choosing. The doorway is no
+                    longer about leaving him but about her own movement through space. (Multiple shots, 124 BPM, 9B
+                    Camelot)</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 15</span>
+                <h3>Persona 3: Kitchen Joy</h3>
+                <p>Woman 3 dances sensually in kitchen, camera tracking from distance to intimate close-up. Like the
+                    previous two, she transforms the space associated with him and conflict into arena of personal
+                    expression and joy. The three individual dances in three locations create visual triptych: each
+                    woman
+                    reclaiming her own space, moving to her own rhythm, beautiful and complete without him.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 16</span>
+                <h3>The Bad Haircut</h3>
+                <p>The man gets haircut at traditional Puerto Rican barber shop. He's disappointed with the result—
+                    another small loss of control, another thing going wrong. Camera close-up on his face then pulls
+                    back
+                    to reveal full scene. The bad haircut serves as visual metaphor for his inability to maintain even
+                    basic self-presentation, his life unraveling in both major and minor ways.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 17</span>
+                <h3>Empty Wallet</h3>
+                <p>He checks his empty wallet while walking through crowded shopping mall corridor, worried and anxious.
+                    Camera close-up on the wallet then pulls back as he walks. The empty wallet visualizes financial
+                    consequences potentially connected to his romantic failures—resources depleted, nothing left to
+                    offer.
+                    The crowded corridor emphasizes his isolation: surrounded by people engaged in consumption and
+                    normalcy while he confronts scarcity and loss.</p>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 18</span>
+                <h3>Collective Joy (Finale)</h3>
+                <p>All three women dance together in unison, synchronized choreography to 124 BPM, 9B Camelot in house
+                    open area/outdoor space. They move with identical steps—visual representation of solidarity,
+                    sisterhood, collective strength. Camera moves from close-up to distance, revealing they're happy,
+                    liberated, complete. Multiple shots provide editing options for the climactic finale. Their unified
+                    dance is the resolution: not reconciliation with him but celebration of freedom from him.</p>
+            </div>
+            </scene-grid>
+    </section>
+
+    <!-- Technical Process -->
+    <section class="content-section" style="margin-top: 60px; margin-bottom: 80px;">
+        <div class="section-header">
+            <h2>Technical Process & Post-Production</h2>
+            <p class="subtitle">From generation to final edit</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Upscaling & Frame Rate Enhancement</h3>
+            <p>All scenes upscaled from generation resolution to 4K using Topaz Video AI, with frame rate interpolation
+                from source to 60 FPS. This technical enhancement ensures professional visual quality that matches
+                contemporary music video standards. The 4K resolution allows for digital zooms and reframing in post
+                without quality loss, while 60 FPS creates smooth motion particularly important for dance choreography
+                where every movement beat should be clearly visible.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Editorial Synchronization</h3>
+            <p>All footage edited in DaVinci Resolve with meticulous attention to musical synchronization—cuts,
+                movements,
+                and emotional beats aligned to the 124 BPM rhythm in 9B Camelot key. This isn't merely cutting on beat
+                but understanding song structure: verses, pre-choruses, choruses, bridges each have distinct emotional
+                qualities that should be reflected in scene selection and pacing. The dance sequences particularly
+                benefit
+                from frame-accurate editing where every body movement hits on or accentuates musical accents.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Narrative-Musical Integration</h3>
+            <p>The editing process treated music not as background but as co-narrator: lyrical content informed scene
+                selection, instrumental breaks provided space for visual storytelling without dialogue, energy shifts in
+                the music mapped to emotional shifts in narrative. For instance, the women's liberation dances occur
+                during high-energy choruses, while the protagonist's isolated contemplation appears during verses or
+                stripped-down instrumental moments. This integration creates audiovisual synthesis where meaning emerges
+                from the relationship between what we see and what we hear.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Color Grading & Visual Continuity</h3>
+            <p>DaVinci Resolve's color grading tools unified the visual palette across all generated scenes, AI
+                backgrounds, and character integrations. The color scheme—vibrant greens, warm yellows, passionate
+                pinks,
+                and dramatic reds—references both Puerto Rican cultural color preferences and the emotional spectrum of
+                the narrative. Green suggests growth and the natural world, yellow embodies joy and liberation, pink
+                represents romance and sensuality, red signifies passion and conflict. These colors were enhanced in
+                post-production to create cohesive visual language that supports storytelling.</p>
+        </div>
+
+        <div class="highlight-box">
+            <p><strong>Project Reflection:</strong> "Rosalina" demonstrates the iterative nature of AI-assisted
+                storytelling—the distance between initial generation and final vision requires patience, prompt
+                refinement, and willingness to regenerate until the emotional and cultural authenticity is achieved.
+                Technical excellence (4K, 60 FPS, color grading) serves the narrative rather than overshadowing it.
+                The project proves that AI can help tell culturally specific stories when creators invest in research,
+                iteration, and post-production craft, transforming generated assets into cohesive narrative that
+                respects
+                its cultural context while exploring universal themes of guilt, loss, and the possibility of redemption—
+                even if that redemption belongs to those who chose to walk away.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AI Creator Portfolio | Rosalina</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

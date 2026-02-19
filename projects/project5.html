@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Neon Chrysalis - AI Creator Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/project-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --accent: #00ffff;
+            --accent-alt: #ff00ff;
+            --accent-dim: #00ffff15;
+            --accent-glow: #00ffff40;
+        }
+        .project-hero {
+            background: linear-gradient(135deg, #1a0e2e 0%, #0e1a2e 50%, #0e2e2e 100%);
+        }
+        .project-hero::before {
+            background: radial-gradient(circle at 30% 50%, #00ffff12 0%, transparent 50%),
+                        radial-gradient(circle at 70% 50%, #ff00ff12 0%, transparent 50%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">THARINDU ATHAPATHTHU</div>
+            <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../projects.html" class="active">Projects</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="project-hero">
+        <div class="container">
+            <a href="../projects.html" class="back-link" style="display: inline-block; margin-bottom: 20px;">← Back to
+                Projects</a>
+            <h1>The Neon Chrysalis</h1>
+            <p class="tagline">A striking fusion of organic beauty and urban chaos. The subject appears as a modern-day
+                fae creature, wearing her metamorphosis like high fashion</p>
+            <div class="project-meta">
+                <div class="meta-item">
+                    <div class="label">BPM Range</div>
+                    <div class="value">90–110</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">Scene Count</div>
+                    <div class="value">8</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">Color Scheme</div>
+                    <div class="value">Cyan/Magenta</div>
+                </div>
+                <div class="meta-item">
+                    <div class="label">Style</div>
+                    <div class="value">Urban Fantasy</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase -->
+    <section class="content-section">
+        <div class="video-showcase">
+            <div class="section-header" style="border: none; padding: 0; margin-bottom: 30px;">
+                <h2>Final Result</h2>
+                <p class="subtitle">Urban metamorphosis in neon light</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/kfnX66HhwdI" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>Project Overview</h2>
+            <p class="subtitle">Where nature's transformation meets neon nocturne</p>
+        </div>
+        <div class="strategy-box">
+            <h3>Creative Vision: Urban Camouflage</h3>
+            <p>"The Neon Chrysalis" explores a provocative concept: what if the vibrant colors of nature's most
+                beautiful transformations—butterfly metamorphosis—evolved to mimic the artificial neon of urban
+                environments? The project presents a modern-day fae creature who wears her chrysalis state not as a
+                cocoon of hiding, but as high-fashion armor in the urban jungle. She is both camouflaged and
+                conspicuous,
+                blending into the neon-soaked cityscape while simultaneously commanding attention through her organic
+                beauty.</p>
+            <div class="concept-box">
+                <h4>The Metamorphosis Metaphor</h4>
+                <p>The butterfly wings extending from her temples—rather than her back—transform a biological process
+                    into fashion statement and headpiece. This unconventional placement frames her face, ensuring the
+                    wings never compete with her presence but instead enhance it, creating a living halo of iridescent
+                    motion. The chrysalis isn't something she's escaping; it's something she's chosen to inhabit,
+                    claiming the liminal space between transformation states as permanent identity.</p>
+            </div>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Prompt Strategy: Bi-Chromatic Focus</h3>
+            <p>The project utilized a strict "Bi-Chromatic Focus" strategy, limiting the lighting scheme to cyan and
+                magenta exclusively. This dual-color approach creates immediate visual coherence between the subject's
+                wings and the urban environment—the wings don't feel like foreign fantasy elements but rather natural
+                extensions of the neon-lit cityscape. By restricting the palette, every element reinforces the central
+                concept: organic beauty that has adapted to artificial environments.</p>
+            <div class="highlight-box">
+                <p><strong>Technical Precision:</strong> The prompts emphasized specific camera settings ("85mm lens at
+                    f/1.8 aperture") to ensure the busy crowd background remained visible but non-distracting. The
+                    shallow depth of field isolates the subject while the out-of-focus crowd provides context and scale,
+                    creating the sense that she exists both within and apart from the urban masses.</p>
+            </div>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Iterative Refinement: From Back to Head</h3>
+            <p>Early iterations placed butterfly wings on the subject's back—the traditional fantasy approach. However,
+                these became visually lost in the crowded background, failing to frame the face effectively. The
+                critical
+                breakthrough came from adjusting the prompt to specify "wings extending from temples" or "butterfly wing
+                headpiece," which transformed the wings from decorative appendages into integral facial framing devices.
+                This placement ensures the wings always enhance rather than obscure the subject's expression and eye
+                contact.</p>
+            <p style="margin-top: 20px;">Similarly, crowd density underwent extensive experimentation. Too sparse and
+                the urban context felt empty; too dense and the subject disappeared into noise. The solution involved
+                prompting for a "blurred background crowd" that provides atmospheric depth without competing for focus,
+                keeping the subject isolated despite the busy setting—a visual metaphor for urban loneliness and
+                individuality within masses.</p>
+        </div>
+    </section>
+
+    <!-- Tools Used -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>Tools & Technology</h2>
+            <p class="subtitle">The technical ecosystem behind the transformation</p>
+        </div>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <img src="../images/tools/nano-banana.png" alt="nano-banana" class="icon">
+                <div class="name">Nano Banana Pro</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/veo.png" alt="veo" class="icon">
+                <div class="name">Veo 3.1</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/gemini.png" alt="gemini" class="icon">
+                <div class="name">Gemini Flow</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/topaz.png" alt="topaz" class="icon">
+                <div class="name">Topaz Gigapixel</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/davinci-resolve.png" alt="davinci-resolve" class="icon">
+                <div class="name">DaVinci Resolve</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/suno.png" alt="suno" class="icon">
+                <div class="name">SUNO Pro</div>
+            </div>
+            <div class="tool-card">
+                <img src="../images/tools/canva.png" alt="canva" class="icon">
+                <div class="name">Canva</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery-section">
+        <div class="gallery-intro">
+            <h2>Visual Metamorphosis</h2>
+            <p>Capturing the neon chrysalis in its urban habitat</p>
+        </div>
+        <div class="image-grid">
+            <div class="gallery-item">
+                <img src="../images/projects/project5/img1.png" alt="The Neon Chrysalis 1">
+                <div class="gallery-caption">
+                    <span class="number">Image 01</span>
+                    <h4>The Temple Wings Portrait</h4>
+                    <p>The definitive portrait showcasing the temple-mounted butterfly wings that frame her face like a
+                        living crown. The cyan and magenta neon lighting bathes her in bi-chromatic glow, perfectly
+                        matching the iridescent wings. Her confident gaze pierces through the camera while the blurred
+                        crowd background provides urban context without distraction. This composition demonstrates the
+                        successful resolution of wing placement—they enhance rather than obscure her presence, creating
+                        visual hierarchy that guides the eye directly to her expression. The shallow depth of field
+                        isolates her from the urban masses while the neon color palette unifies organic and artificial
+                        elements.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="../images/projects/project5/img2.png" alt="The Neon Chrysalis 2">
+                <div class="gallery-caption">
+                    <span class="number">Image 02</span>
+                    <h4>Neon Street Context</h4>
+                    <p>A wider environmental shot revealing the full urban nightscape that serves as her domain. Neon
+                        signs in cyan, magenta, and violet create the artificial forest through which this modern fae
+                        creature moves. Light mist diffuses the neon glow across wet pavement, adding atmospheric depth.
+                        Crowd silhouettes populate the background, their movement suggesting life and energy without
+                        stealing focus. This frame establishes the "urban camouflage" concept—her butterfly wings don't
+                        look out of place in this neon-saturated environment but rather appear as natural adaptations to
+                        the artificial ecosystem. The color temperature and saturation levels demonstrate how the
+                        bi-chromatic strategy creates visual cohesion across all elements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Scene Breakdown -->
+    <section class="content-section" style="margin-top: 60px;">
+        <div class="section-header">
+            <h2>Scene-by-Scene Breakdown</h2>
+            <p class="subtitle">Rhythmic choreography for the butterfly dance</p>
+        </div>
+
+        <div class="strategy-box" style="margin-bottom: 40px;">
+            <h3>Musical Foundation</h3>
+            <p><strong>BPM Range:</strong> 90–110 beats per minute | <strong>Genre:</strong> Mid-tempo electronic/dance
+                with deep bass and soft synth pulses</p>
+            <p style="margin-top: 15px;">Each scene is choreographed to create hypnotic, loopable sequences that sync
+                with electronic music's rhythmic structure. The butterfly wings serve as visual percussion instruments,
+                their movements accenting beats and creating synesthetic synchronization between sound and motion. The
+                fixed camera position maintains cinematic stability while allowing the subject's subtle movements and
+                wing animations to provide all necessary dynamism.</p>
+        </div>
+
+        <div class="scene-grid">
+            <div class="scene-card">
+                <span class="scene-number">Scene 01</span>
+                <h3>Intro Beat (0:00–0:05)</h3>
+                <div class="scene-detail">
+                    <strong>Environmental Establishment</strong>
+                    <p>Scene fades in from black, revealing the neon city street at night. Light mist hangs in the air,
+                        diffusing neon signs that flicker on gradually—pink, cyan, violet. Crowd silhouettes begin slow,
+                        natural pedestrian movement, walking left-to-right and right-to-left in the background.
+                        Fireworks
+                        bloom softly in the distant sky with slow, elegant bursts, adding celebratory atmosphere without
+                        overwhelming the composition.</p>
+                </div>
+                <div class="scene-detail">
+                    <strong>Lighting Design</strong>
+                    <p>Ambient blue-purple glow establishes the base tone. Subtle light reflections shimmer on wet
+                        pavement, grounding the fantastical elements in physical reality.</p>
+                </div>
+                <div class="scene-detail">
+                    <strong>Purpose</strong>
+                    <p>Sets the atmospheric foundation and introduces the urban environment before the subject appears.
+                        Creates anticipation.</p>
+                </div>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 02</span>
+                <h3>Wing Activation</h3>
+                <div class="scene-detail">
+                    <strong>Wing Animation</strong>
+                    <p>Butterfly wings begin rhythmic motion perfectly synced to the beat. Small flutters occur on every
+                        second beat, creating visual syncopation. Color shifts ripple across the wings: pink → blue →
+                        violet, cycling through the bi-chromatic palette. Tiny glowing particles drift from the wings
+                        like digital dust or bioluminescent scales. Fireworks subtly intensify in the background,
+                        responding to the increasing energy.</p>
+                </div>
+                <div class="scene-detail">
+                    <strong>Subject Movement</strong>
+                    <p>Slow head tilt initiates movement. One hand lifts slightly with fingers relaxed, suggesting
+                        gentle
+                        control. A soft body wave synchronized to the bass line demonstrates her connection to the
+                        rhythm.</p>
+                </div>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 03</span>
+                <h3>Peak Energy</h3>
+                <div class="scene-detail">
+                    <strong>Beat Intensity</strong>
+                    <p>The strongest rhythmic section. Musical elements reach maximum presence.</p>
+                </div>
+                <div class="scene-detail">
+                    <strong>Movement Choreography</strong>
+                    <p>She leans slightly forward in engagement, then settles back to neutral. Hips sway gently side to
+                        side with controlled sensuality. Her eyes stay locked toward camera throughout—confident,
+                        alluring, completely composed. The eye contact never breaks, creating psychological connection
+                        with viewers.</p>
+                </div>
+                <div class="scene-detail">
+                    <strong>Lighting Response</strong>
+                    <p>Neon lights pulse in perfect time with the beat, transforming the environment into visual rhythm
+                        section. Brief light flares pass across the lens with subtle, cinematic quality. Wings glow at
+                        maximum brightness during the beat drop, then soften gradually, breathing with the music.</p>
+                </div>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 04</span>
+                <h3>Wind Down</h3>
+                <div class="scene-detail">
+                    <strong>Deescalation</strong>
+                    <p>Movement slows deliberately, creating resolution. Wings gradually fold inward while still
+                        maintaining a faint glow. Crowd continues their walking patterns, uninterrupted—they remain
+                        unaware of the transformation occurring in their midst. Fireworks fade from the sky. Neon signs
+                        dim slightly, returning to ambient levels. She holds still with only breathing visible. Eyes
+                        remain calm and present.</p>
+                </div>
+                <div class="scene-detail">
+                    <strong>Closing</strong>
+                    <p>Music fades to silence. Screen slowly fades to black, completing the cycle.</p>
+                </div>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 05</span>
+                <h3>Flashback / Memory Beat (6–10s)</h3>
+                <div class="scene-detail">
+                    <strong>Purpose</strong>
+                    <p>Flashback sequence, memory moment, or beat transition. Camera remains fixed at same angle as main
+                        scene. Music continues with instrumental loop or filtered bass.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:00–0:02 | Entry Hit</h4>
+                    <p>Hard beat or soft whoosh transition marks the entry. Neon lights spike brighter for a single
+                        frame, creating flash effect. Crowd motion slows slightly, becoming almost dreamlike. Background
+                        blur increases subtly. Visual feel shifts to slight glow haze. Colors lean more toward pink and
+                        electric blue.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:02–0:05 | Dance Loop Core</h4>
+                    <p><strong>Body Wave:</strong> She performs a slow, sensual body wave: shoulders rise → chest → hips
+                        → settle. One knee bends slightly as weight shifts. Head tilts back a little with eyes
+                        half-closed in introspective moment.</p>
+                    <p><strong>Butterfly Wings:</strong> Flutter faster than main scene. Wing tips vibrate lightly with
+                        each bass hit. Neon veins pulse outward from the wing centers, creating rippling light patterns.
+                    </p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:05–0:08 | Memory Moment</h4>
+                    <p>She rotates her shoulders smoothly. One hand lifts to neck or collarbone in soft, elegant touch.
+                        Hips sway once—clean and controlled. Expression conveys confidence, intimacy, almost teasing
+                        quality. Brief neon streak passes behind her in the background. Firework reflection flashes
+                        faintly across the wings.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:08–0:10 | Exit</h4>
+                    <p>Wings freeze for half a second. Neon glow drops suddenly. Crowd speed returns to normal pace.
+                        Quick crossfade or beat-cut transition back to main scene.</p>
+                </div>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 06</span>
+                <h3>Beat Accent / Visual Punctuation (7–12s)</h3>
+                <div class="scene-detail">
+                    <strong>Purpose</strong>
+                    <p>Flashback moment, beat accent, or visual punctuation. Camera fixed with same framing. Music track
+                        continues with clearer percussion and sharper beat definition.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:00–0:02 | Beat Snap In</h4>
+                    <p>Quick neon flicker—single-frame flash. Background crowd continues walking but motion feels more
+                        defined and intentional. Fireworks pause for a moment, making the city feel tighter and more
+                        compressed. Lighting shows stronger contrast. Cyan and magenta dominate completely. Neon edges
+                        appear sharper and more defined.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:02–0:05 | Controlled Groove</h4>
+                    <p>She performs a sharp shoulder pop: left → right. Small hip bounce on the second beat. Chin lifts
+                        slightly showing confident, unbothered expression. Butterfly wings execute short, precise flaps.
+                        Wing glow pulses only on bass hits. Wing edges glow white for one frame, then return to neon
+                        colors.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:05–0:08 | Attitude Move</h4>
+                    <p>She steps half-forward with very small movement. Slow body lean followed by return to center. One
+                        hand slides down her side, then stops at the hip. Direct eye contact with camera maintained.
+                        Subtle smirk or relaxed lips. Calm but powerful presence radiates.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:08–0:11 | Power Pose</h4>
+                    <p>Hips sway once—clean and grounded. Shoulders settle back into strong posture. Wings open wider
+                        than usual, then hold in display position. Neon signs in background pulse together once in
+                        synchronization. Crowd silhouettes pass behind her shoulders, creating layered depth.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:11–0:12 | Cut Out</h4>
+                    <p>Beat hits hard. Wings snap into a slow hover, suspended. Instant hard cut or glitch-cut
+                        transition to next scene.</p>
+                </div>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 07</span>
+                <h3>Emotional Pause / Slow Build (8–14s)</h3>
+                <div class="scene-detail">
+                    <strong>Purpose</strong>
+                    <p>Flashback, emotional pause, or slow build section. Camera remains fixed with unchanged framing.
+                        Music track continues but filtered with low-pass filter and soft echo.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:00–0:03 | Time Stretch In</h4>
+                    <p>Beat fades into muffled pulse. Entire scene feels slightly slow-motion (90–92% speed). Neon
+                        lights soften with glow spreading wider. Crowd walking continues but feels distant and
+                        dreamlike. Light fog thickens near the ground. Colors shift toward violet, deep blue, and soft
+                        pink.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:03–0:07 | Floating Dance</h4>
+                    <p>She begins slow torso rotation: chest circles gently. Shoulders remain relaxed. Hips follow
+                        naturally with barely noticeable movement. Head leans to one side with eyes soft and unfocused.
+                        Butterfly wings don't flap yet—they breathe. Glow expands and contracts slowly like respiration.
+                        Light ripples move across the wings like liquid neon.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:07–0:10 | Intimate Motion</h4>
+                    <p>One arm rises slowly. Fingers trace the air near her neck or jawline. Small body wave moves
+                        downward with control and elegance. Expression remains calm, introspective, sensual without
+                        effort. Lips slightly parted. Slow breathing becomes visible.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:10–0:13 | Wing Awakening</h4>
+                    <p>Wings begin ultra-slow flutter: one smooth open-close cycle. Neon veins brighten briefly, then
+                        dim. A faint firework glow reflects across the wing surfaces.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:13–0:14 | Memory Release</h4>
+                    <p>She returns to neutral pose. Glow fades slightly. Sound filter lifts, restoring normal audio.
+                        Clean cut back to main timeline.</p>
+                </div>
+            </div>
+
+            <div class="scene-card">
+                <span class="scene-number">Scene 08</span>
+                <h3>Flashback Spark / Beat Connector (5–9s)</h3>
+                <div class="scene-detail">
+                    <strong>Purpose</strong>
+                    <p>Flashback spark, beat connector, or visual hook. Camera fixed with same composition. Music track
+                        continues percussion-forward with hi-hat and clap emphasis.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:00–0:01 | Quick Ignition</h4>
+                    <p>Single-frame neon flash: cyan → pink. Crowd motion stays at normal speed. Fireworks pop briefly
+                        in far background. Feel is crisp, energetic, clean.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:01–0:04 | Playful Groove</h4>
+                    <p>She performs small bounce-step in place. Knees bend slightly. Weight shifts right → left. Subtle
+                        shoulder shimmy synced to hi-hats. Head nods gently with the rhythm. Butterfly wings execute
+                        light, fast flutter. Wing edges sparkle briefly on each beat. Glow is tighter with less bloom.
+                    </p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:04–0:06 | Attitude Flick</h4>
+                    <p>Quick hip pop—single, controlled. Chin tilts upward. Eyes glance slightly past camera, then snap
+                        back. Neon signs pulse once together. Reflections slide across wet pavement.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:06–0:08 | Mini Pose</h4>
+                    <p>She settles into relaxed pose: one hip weighted. Shoulders open. Wings spread just a little
+                        wider, then pause mid-air in suspension.</p>
+                </div>
+
+                <div class="scene-subsection">
+                    <h4>0:08–0:09 | Snap Out</h4>
+                    <p>Percussion hit punctuates. Wing sparkle fades instantly. Hard cut or beat-cut back to main scene.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Insights -->
+    <section class="content-section" style="margin-top: 60px; margin-bottom: 80px;">
+        <div class="section-header">
+            <h2>Technical Insights & Reflections</h2>
+            <p class="subtitle">Lessons from creating the urban chrysalis</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>The Power of Color Restriction</h3>
+            <p>The bi-chromatic cyan/magenta strategy proved transformative. By limiting the palette so strictly, every
+                element in the composition—from wings to neon signs to lighting—speaks the same visual language. This
+                creates immediate coherence that allows fantasy elements (butterfly wings) to feel native to realistic
+                environments (city streets). The restriction paradoxically creates freedom: editors can combine any
+                scenes knowing the color palette will always match perfectly.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Wing Placement as Framing Device</h3>
+            <p>The decision to move wings from back to temples exemplifies how small prompt adjustments yield massive
+                compositional improvements. Temple-mounted wings serve triple function: they frame the face like a
+                crown,
+                they remain visible from frontal camera angles, and they create visual hierarchy that guides viewer
+                attention directly to the subject's expression. This placement transforms wings from decorative elements
+                into integral facial framing that enhances rather than competes with the subject's presence.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Camera Settings as Prompt Language</h3>
+            <p>Including specific technical camera specifications ("85mm lens at f/1.8 aperture") in prompts proved
+                essential for achieving consistent shallow depth of field. These technical terms communicate clearly to
+                the AI what type of focus falloff and background blur to generate. This precision prevents the common
+                problem of cluttered backgrounds stealing focus—the crowd remains contextually present but visually
+                subordinate, creating isolation within urban density.</p>
+        </div>
+
+        <div class="strategy-box">
+            <h3>Rhythmic Choreography for Loopable Sequences</h3>
+            <p>Designing each scene as a beat-synchronized loop required thinking like a music video editor from the
+                start. Rather than linear narrative progression, each scene functions as a self-contained visual rhythm
+                that can repeat seamlessly or combine with others. The wing animations serve as visual percussion—their
+                flutters, color shifts, and glow pulses accent musical beats, creating synesthetic experience where
+                viewers "see" the rhythm even before audio plays.</p>
+        </div>
+
+        <div class="highlight-box">
+            <p><strong>Project Legacy:</strong> "The Neon Chrysalis" demonstrates that successful AI-generated fantasy
+                requires not more complexity, but more constraint. The bi-chromatic palette, fixed camera position,
+                temple-wing placement, and specific technical terminology all represent deliberate limitations that
+                paradoxically yield greater coherence and impact. The project proves that urban fantasy works best when
+                organic elements adapt to artificial environments rather than fighting against them—the butterfly
+                doesn't
+                conquer the city; she becomes native to it, wearing neon like plumage evolved for concrete jungles. Most
+                significantly, the modular scene structure shows that AI video generation excels at creating loopable,
+                beat-synchronized sequences for music video applications where hypnotic repetition and rhythmic
+                variation
+                matter more than traditional narrative continuity.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AI Creator Portfolio | The Neon Chrysalis</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

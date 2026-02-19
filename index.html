@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Creator Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">THARINDU ATHAPATHTHU</div>
+            <div class="hamburger"
+                onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="images/hero-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="AI IMAGE & VIDEO CREATOR">AI IMAGE & VIDEO CREATOR</h1>
+            <p class="subtitle">Software Engineer • Prompt Engineer • Visual Storyteller</p>
+            <a href="projects.html" class="cta-button">View Projects</a>
+        </div>
+        <div class="scroll-indicator"><span></span></div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid fade-in">
+                <div class="stat-item">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">60+</div>
+                    <div class="stat-label">AI Scenes</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">AI Tools</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4K</div>
+                    <div class="stat-label">Resolution</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work -->
+    <section class="featured-projects">
+        <div class="container">
+            <h2>Featured Work</h2>
+            <p class="section-subtitle">Latest AI-generated visual storytelling projects</p>
+            <div class="project-grid">
+                <div class="project-card fade-in">
+                    <div class="card-image">
+                        <img src="images/projects/project10/image10.png" alt="Project 10">
+                        <span class="project-badge">Latest</span>
+                        <span class="project-tag">Arcane × Historical</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kathandare (Tokyo Legend)</h3>
+                        <p>A dramatic Japanese ancient romance where love transcends war, betrayal, and fate.</p>
+                        <a href="projects/project10.html" class="card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="card-image">
+                        <img src="images/projects/project9/image9.png" alt="Project 9">
+                        <span class="project-badge">Featured</span>
+                        <span class="project-tag">Cultural Drama</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Rosalina (Global Club Mix)</h3>
+                        <p>A Puerto Rican narrative of guilt, transformation, and colorful redemption through dance.</p>
+                        <a href="projects/project9.html" class="card-link">View Details →</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="card-image">
+                        <img src="images/projects/project8/image8.png" alt="Project 8">
+                        <span class="project-badge">Featured</span>
+                        <span class="project-tag">Neon Dance</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Kalu Kella Mamai (Dark Beauty)</h3>
+                        <p>When the music drops and the lights collide, one presence rises above the crowd.</p>
+                        <a href="projects/project8.html" class="card-link">View Details →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- YouTube -->
+    <section class="youtube-section">
+        <div class="container fade-in">
+            <h2>Music With Synthesis</h2>
+            <p class="section-subtitle" style="margin-bottom: 2rem;">All AI music video projects are available on my
+                YouTube channel</p>
+            <a href="https://www.youtube.com/@music_with_synthesis" target="_blank" class="yt-channel-link">
+                <i class="fab fa-youtube"></i> Subscribe on YouTube →
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AI Creator Portfolio | Tharindu Athapaththu</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
