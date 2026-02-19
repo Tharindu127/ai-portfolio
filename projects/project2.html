@@ -15,12 +15,14 @@
             --accent-dim: #ff8c0015;
             --accent-glow: #ff8c0040;
         }
+
         .project-hero {
             background: linear-gradient(135deg, #1a0e00 0%, #1a1008 50%, #0e1210 100%);
         }
+
         .project-hero::before {
             background: radial-gradient(circle at 30% 50%, #ff8c0012 0%, transparent 50%),
-                        radial-gradient(circle at 70% 50%, #ff450012 0%, transparent 50%);
+                radial-gradient(circle at 70% 50%, #ff450012 0%, transparent 50%);
         }
     </style>
 </head>
@@ -29,7 +31,8 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">THARINDU ATHAPATHTHU</div>
-            <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
+            <div class="hamburger"
+                onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
                 <span></span><span></span><span></span>
             </div>
             <ul class="nav-links">
@@ -82,6 +85,173 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
+        </div>
+    </section>
+
+    <!-- The Original Song -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>The Original Song</h2>
+            <p class="subtitle">A modern Sinhala hit reimagined as a global folk-fusion banger</p>
+        </div>
+        <div class="strategy-box">
+            <h3>පන්දම (Pandama) — The Happy Devil</h3>
+            <p>This project is built around <strong>"පන්දම"</strong> (Pandama / The Torch) by <strong>Dhanith
+                    Sri</strong> — a wildly popular Sinhala track that blends folk percussion with modern pop
+                sensibility. I reimagined it by translating the lyrics into playful, rhythmic English while preserving
+                the song's mischievous energy, and transformed the sound into a bouncy Melodic Folk-Fusion banger with
+                marimba, plucked strings, and Yak-Bera percussion for a global audience.</p>
+        </div>
+        <div class="origin-grid">
+            <div class="origin-card">
+                <div class="origin-label">Artist</div>
+                <div class="origin-value"><span class="accent">Dhanith Sri</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Lyrics & Composition</div>
+                <div class="origin-value"><span class="accent">Dhanith Sri</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Music Production</div>
+                <div class="origin-value"><span class="accent">Sanuka Wickramasinghe</span></div>
+            </div>
+            <div class="origin-card">
+                <div class="origin-label">Release Year</div>
+                <div class="origin-value"><span class="accent">2020</span></div>
+            </div>
+        </div>
+        <div class="original-embed">
+            <div class="embed-icon"><i class="fab fa-youtube"></i></div>
+            <div class="embed-info">
+                <div class="embed-title">Listen to the Original Song</div>
+                <div class="embed-detail">පන්දම (Pandama) — Dhanith Sri (2020)</div>
+            </div>
+            <a href="https://youtu.be/GNgmUYAsB-M?si=1_4zPW0HTqaQpfHK" target="_blank" class="embed-link"><i
+                    class="fab fa-youtube"></i> Watch on YouTube</a>
+        </div>
+    </section>
+
+    <!-- The Reimagination -->
+    <section class="content-section">
+        <div class="section-header">
+            <h2>The Reimagination</h2>
+            <p class="subtitle">From Sinhala folk-pop to global Melodic Folk-Fusion</p>
+        </div>
+        <div class="strategy-box">
+            <h3>Creative Process</h3>
+            <p>The reimagination preserved the song's infectious, playful spirit while transforming it across three
+                dimensions: <strong>translating the lyrics</strong> into bouncy, rhythmic English that captures the
+                mischievous "devil drums" energy and the desert love metaphor, <strong>restructuring the flow</strong>
+                into a modern verse-chorus-bridge format with a funky percussion break, and <strong>reimagining the
+                    sonic palette</strong> from Sinhala pop production to a 2026 Melodic Folk-Fusion sound — bouncy
+                marimba melodies, plucked strings, and authentic Yak-Bera percussion fused with global pop aesthetics.
+            </p>
+        </div>
+
+        <div class="lyrics-container">
+            <!-- Original Sinhala Lyrics -->
+            <div class="lyrics-box">
+                <div class="lyrics-header">
+                    <h4><i class="fas fa-scroll" style="margin-right: 8px;"></i> Original Sinhala Lyrics</h4>
+                    <span class="lyrics-badge">සිංහල</span>
+                </div>
+                <div class="lyrics-preview">පන්දම රැගෙන යන්න එන්න මා හදවතට
+                    නෙතු දැහැන් බිඳිනා රන් සලුව ඇඳ
+                    ලියතඹර ලෙලවා හද මඬල යට
+                    දෙන්න මැණිකෙ මගෙ පපුවට ගින්දර</div>
+                <div class="lyrics-full" id="sinhalaLyrics2">
+                    මේ දුර දිවි කතරේ අතරමඟදි දැකලා නැතී
+                    රුවකට නෙත ගැටුනේ කතරක වැසි වැටෙනා දැනේ
+                    හදවත පතුලේ යකු බෙර වැයුනේ
+                    තම්දෙන තානේනේ නා
+                    අනේ මගේ යකුනේ නටපන් හනිකේ
+                    තම්දෙන තානේනේ තානේනේ තානානේ
+                    තම්දෙන තානේනේ නා
+
+                    ඉණ වට බැන්දා වූ මුතු පොට සැලෙනකොට
+                    පන්දම දැවෙනවා හද ගිනි ලවාගෙන
+                    වැහි කළුව එනවා නුඹ නැති දාට
+                    සිත් අහසම පුරවා අන්ධකාරෙක
+
+                    මේ දුර දිවි කතරේ අතරමඟදි දැකලා නැතී
+                    රුවකට නෙත ගැටුනේ කතරක වැසි වැටෙනා දැනේ
+                    මේ දුර දිවි කතරේ අතරමඟදි දැකලා නැතී
+                    රුවකට නෙත ගැටුනේ කතරක වැසි වැටෙනා දැනේ
+
+                    හදවත පතුලේ යකු බෙර වැයුනේ
+                    තම්දෙන තානේනේ නා
+                    අනේ මගේ යකුනේ නටපන් හනිකේ
+                    තම්දෙන තානේනේ තානේනේ තානානේ</div>
+                <button class="lyrics-toggle" onclick="toggleLyrics('sinhalaLyrics2', this)">View Full Lyrics <i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+
+            <!-- Reimagined English Lyrics -->
+            <div class="lyrics-box">
+                <div class="lyrics-header">
+                    <h4><i class="fas fa-music" style="margin-right: 8px;"></i> Reimagined English Lyrics</h4>
+                    <span class="lyrics-badge">Reimagined</span>
+                </div>
+                <div class="lyrics-preview"><span class="lyrics-section-label">[Intro - Playful Marimba melody and a
+                        bouncy drum beat]</span>
+                    (Tham-dena Thaa-nene naa...)
+                    (Yeah, let's dance!)
+
+                    <span class="lyrics-section-label">[Verse 1 - Melodic and Playful]</span>
+                    Bring the torch and walk into my soul
+                    With your golden dress, you're taking all control
+                    Moving like a vine, dancing in the heat
+                    Baby, bring the fire, make it all complete
+                </div>
+                <div class="lyrics-full" id="englishLyrics2">
+                    In this dusty desert, I've never seen a face so fine
+                    Like a rain in summer, girl I'm glad that you are mine
+
+                    <span class="lyrics-section-label">[Chorus - The Big Melodic Hook]</span>
+                    Deep inside my chest, the devil drums are playing loud
+                    (Tham-dena Thaa-nene naa!)
+                    Dancing in the light, standing out within the crowd
+                    (Tham-dena Thaa-nene naa!)
+                    I got that fire burning, and I'm losing all my cool
+                    For your love, baby, I'm a happy fool!
+
+                    <span class="lyrics-section-label">[Verse 2 - Bouncy and Groovy]</span>
+                    Pearls around your waist, I love the way they shake
+                    With that torch light burning, every heart is gonna break
+                    Dark clouds in the sky whenever you're away
+                    Filling up my world with a little bit of gray
+                    In this dusty desert, I've never seen a face so fine
+                    Like a rain in summer, girl I'm glad that you are mine
+
+                    <span class="lyrics-section-label">[Bridge - Funky Percussion Break]</span>
+                    (Tham-dena Thaanene...)
+                    (Shake it for the devil now!)
+                    (Tham-dena Thaanene...)
+
+                    <span class="lyrics-section-label">[Final Chorus - Full Vibrant Production]</span>
+                    Deep inside my chest, the devil drums are playing loud!
+                    (Tham-dena Thaa-nene naa!)
+                    I got that fire burning, and I'm losing all my cool!
+                    For your love, baby, I'm a happy fool!
+
+                    <span class="lyrics-section-label">[Outro - Playful Marimba Fade]</span>
+                    Tham-dena Thaanene...
+                    Keep that fire burning.
+                    (Naa-naa-naa)
+                    [End - Playful Drum Rimshot]
+                </div>
+                <button class="lyrics-toggle" onclick="toggleLyrics('englishLyrics2', this)">View Full Lyrics <i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+        </div>
+
+        <!-- AI Music Prompt -->
+        <div class="prompt-display">
+            <div class="prompt-label"><i class="fas fa-robot" style="margin-right: 8px;"></i> SUNO Pro — AI Music Prompt
+            </div>
+            <div class="prompt-text">2026 Melodic Folk-Fusion, 105 BPM, Bouncy Marimba and Plucked Strings, Rhythmic
+                Yak-Bera Percussion, Charismatic and Playful Male Vocals, Sunny and Infectious Energy, High-Fidelity
+                Synthesis, Global Pop Aesthetic</div>
         </div>
     </section>
 
@@ -537,10 +707,20 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 AI Creator Portfolio | The Fire Between Worlds</p>
+        <p>&copy; 2025 Creative Portfolio | The Fire Between Worlds</p>
     </footer>
 
     <script src="../js/main.js"></script>
+    <script>
+        function toggleLyrics(id, btn) {
+            const el = document.getElementById(id);
+            el.classList.toggle('expanded');
+            btn.classList.toggle('active');
+            btn.innerHTML = el.classList.contains('expanded')
+                ? 'Hide Full Lyrics <i class="fas fa-chevron-up"></i>'
+                : 'View Full Lyrics <i class="fas fa-chevron-down"></i>';
+        }
+    </script>
 </body>
 
 </html>
