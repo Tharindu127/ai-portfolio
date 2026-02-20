@@ -12,7 +12,10 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" class="logo-img">THARINDU
+            <a href="index.html" class="logo"><picture>
+                    <source srcset="images/logo.webp" type="image/webp">
+                    <img src="images/logo.png" alt="Logo" class="logo-img">
+                </picture>THARINDU
                 ATHAPATHTHU</a>
             <div class="hamburger"
                 onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
@@ -101,8 +104,11 @@
     </section>
 
     <footer>
-        <div style="margin-bottom: 12px;"><img src="images/logo.png" alt="Logo"
-                style="width: 40px; height: 40px; border-radius: 50%; opacity: 0.7;"></div>
+        <div style="margin-bottom: 12px;"><picture>
+                    <source srcset="images/logo.webp" type="image/webp">
+                    <img src="images/logo.png" alt="Logo"
+                style="width: 40px; height: 40px; border-radius: 50%; opacity: 0.7;" loading="lazy">
+                </picture></div>
         <p>&copy; 2025 Creative Portfolio | Tharindu Athapaththu</p>
     </footer>
 

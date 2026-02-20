@@ -12,8 +12,13 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" class="logo-img">THARINDU
-                ATHAPATHTHU</a>
+            <a href="index.html" class="logo">
+                <picture>
+                    <source srcset="images/logo.webp" type="image/webp">
+                    <img src="images/logo.png" alt="Logo" class="logo-img">
+                </picture>THARINDU
+                ATHAPATHTHU
+            </a>
             <div class="hamburger"
                 onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
                 <span></span><span></span><span></span>
@@ -67,43 +72,8 @@
         <div class="container">
             <h2>Featured Work</h2>
             <p class="section-subtitle">Where imagination becomes visual reality</p>
-            <div class="project-grid">
-                <div class="project-card fade-in">
-                    <div class="card-image">
-                        <img src="images/projects/project10/image10.png" alt="Project 10">
-                        <span class="project-badge">Latest</span>
-                        <span class="project-tag">Arcane × Historical</span>
-                    </div>
-                    <div class="card-content">
-                        <h3>Kathandare (Tokyo Legend)</h3>
-                        <p>A dramatic Japanese ancient romance where love transcends war, betrayal, and fate.</p>
-                        <a href="projects/project10.html" class="card-link">View Details →</a>
-                    </div>
-                </div>
-                <div class="project-card fade-in">
-                    <div class="card-image">
-                        <img src="images/projects/project9/image9.png" alt="Project 9">
-                        <span class="project-badge">Featured</span>
-                        <span class="project-tag">Cultural Drama</span>
-                    </div>
-                    <div class="card-content">
-                        <h3>Rosalina (Global Club Mix)</h3>
-                        <p>A Puerto Rican narrative of guilt, transformation, and colorful redemption through dance.</p>
-                        <a href="projects/project9.html" class="card-link">View Details →</a>
-                    </div>
-                </div>
-                <div class="project-card fade-in">
-                    <div class="card-image">
-                        <img src="images/projects/project8/image8.png" alt="Project 8">
-                        <span class="project-badge">Featured</span>
-                        <span class="project-tag">Neon Dance</span>
-                    </div>
-                    <div class="card-content">
-                        <h3>Kalu Kella Mamai (Dark Beauty)</h3>
-                        <p>When the music drops and the lights collide, one presence rises above the crowd.</p>
-                        <a href="projects/project8.html" class="card-link">View Details →</a>
-                    </div>
-                </div>
+            <div class="project-grid" id="featuredProjectsGrid">
+                <!-- Rendered dynamically from js/projects-data.js (top 3 projects) -->
             </div>
         </div>
     </section>
@@ -121,12 +91,22 @@
     </section>
 
     <footer>
-        <div style="margin-bottom: 12px;"><img src="images/logo.png" alt="Logo"
-                style="width: 40px; height: 40px; border-radius: 50%; opacity: 0.7;"></div>
+        <div style="margin-bottom: 12px;">
+            <picture>
+                <source srcset="images/logo.webp" type="image/webp">
+                <img src="images/logo.png" alt="Logo"
+                    style="width: 40px; height: 40px; border-radius: 50%; opacity: 0.7;" loading="lazy">
+            </picture>
+        </div>
         <p>&copy; 2025 Creative Portfolio | Tharindu Athapaththu</p>
     </footer>
 
+    <script src="js/projects-data.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        renderFeaturedByViews('featuredProjectsGrid');
+        updateProjectStats();
+    </script>
 </body>
 
 </html>

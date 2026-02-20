@@ -3,18 +3,10 @@
     const collageContainer = document.getElementById('heroCollage');
     if (!collageContainer) return;
 
-    const projectImages = [
-        'images/projects/project1/image1.png',
-        'images/projects/project2/image2.png',
-        'images/projects/project3/image3.png',
-        'images/projects/project4/image4.png',
-        'images/projects/project5/image5.png',
-        'images/projects/project6/image6.png',
-        'images/projects/project7/image7.png',
-        'images/projects/project8/image8.png',
-        'images/projects/project9/image9.png',
-        'images/projects/project10/image10.png'
-    ];
+    // Dynamically pull image paths from projects-data.js config
+    const projectImages = (typeof getProjectImagePaths === 'function')
+        ? getProjectImagePaths()
+        : []; // fallback if config not loaded
 
     function shuffle(arr) {
         const a = arr.slice();
