@@ -12,11 +12,13 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="index.html" class="logo"><picture>
+            <a href="index.html" class="logo">
+                <picture>
                     <source srcset="images/logo.webp" type="image/webp">
                     <img src="images/logo.png" alt="Logo" class="logo-img">
                 </picture>THARINDU
-                ATHAPATHTHU</a>
+                ATHAPATHTHU
+            </a>
             <div class="hamburger"
                 onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
                 <span></span><span></span><span></span>
@@ -44,11 +46,21 @@
             <div class="about-intro fade-in"
                 style="display: flex; flex-direction: column; align-items: center; gap: 2rem;">
                 <div style="flex-shrink: 0;">
-                    <picture>
-                    <source srcset="images/propic.webp" type="image/webp">
-                    <img src="images/propic.png" alt="Tharindu Athapaththu"
-                        style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 3px solid var(--primary); box-shadow: 0 0 20px rgba(0, 209, 178, 0.3);" loading="lazy">
-                </picture>
+                    <div class="propic-container" id="propicContainer">
+                        <!-- Reveal image (underneath) -->
+                        <picture>
+                            <source srcset="images/propic-reveal.webp" type="image/webp">
+                            <img src="images/propic-reveal.jpg" alt="Tharindu Athapaththu – Reveal"
+                                class="propic-reveal">
+                        </picture>
+                        <!-- Main image (on top) -->
+                        <picture>
+                            <source srcset="images/propic.webp" type="image/webp">
+                            <img src="images/propic.png" alt="Tharindu Athapaththu" class="propic-main">
+                        </picture>
+                        <!-- Lightning flash overlay -->
+                        <div class="propic-flash"></div>
+                    </div>
                 </div>
                 <div>
                     <p>I'm <strong>Tharindu Athapaththu</strong>, an imaginor and creator based in
@@ -93,49 +105,50 @@
             <div class="skills-grid fade-in">
                 <div class="skill-card">
                     <picture>
-                    <source srcset="images/tools/nano-banana.webp" type="image/webp">
-                    <img src="images/tools/nano-banana.png" alt="Nano Banana Pro" class="skill-icon" loading="lazy">
-                </picture>
+                        <source srcset="images/tools/nano-banana.webp" type="image/webp">
+                        <img src="images/tools/nano-banana.png" alt="Nano Banana Pro" class="skill-icon" loading="lazy">
+                    </picture>
                     <div class="skill-name">Nano Banana Pro</div>
                     <div class="skill-desc">Image Generation</div>
                 </div>
                 <div class="skill-card">
                     <picture>
-                    <source srcset="images/tools/veo.webp" type="image/webp">
-                    <img src="images/tools/veo.png" alt="Veo 3.1" class="skill-icon" loading="lazy">
-                </picture>
+                        <source srcset="images/tools/veo.webp" type="image/webp">
+                        <img src="images/tools/veo.png" alt="Veo 3.1" class="skill-icon" loading="lazy">
+                    </picture>
                     <div class="skill-name">Veo 3.1</div>
                     <div class="skill-desc">Video Generation</div>
                 </div>
                 <div class="skill-card">
                     <picture>
-                    <source srcset="images/tools/gemini.webp" type="image/webp">
-                    <img src="images/tools/gemini.png" alt="Gemini Flow" class="skill-icon" loading="lazy">
-                </picture>
+                        <source srcset="images/tools/gemini.webp" type="image/webp">
+                        <img src="images/tools/gemini.png" alt="Gemini Flow" class="skill-icon" loading="lazy">
+                    </picture>
                     <div class="skill-name">Gemini Flow</div>
                     <div class="skill-desc">Prompt Engineering</div>
                 </div>
                 <div class="skill-card">
                     <picture>
-                    <source srcset="images/tools/topaz.webp" type="image/webp">
-                    <img src="images/tools/topaz.png" alt="Topaz Video AI" class="skill-icon" loading="lazy">
-                </picture>
+                        <source srcset="images/tools/topaz.webp" type="image/webp">
+                        <img src="images/tools/topaz.png" alt="Topaz Video AI" class="skill-icon" loading="lazy">
+                    </picture>
                     <div class="skill-name">Topaz Video AI</div>
                     <div class="skill-desc">4K Upscaling</div>
                 </div>
                 <div class="skill-card">
                     <picture>
-                    <source srcset="images/tools/davinci-resolve.webp" type="image/webp">
-                    <img src="images/tools/davinci-resolve.png" alt="DaVinci Resolve" class="skill-icon" loading="lazy">
-                </picture>
+                        <source srcset="images/tools/davinci-resolve.webp" type="image/webp">
+                        <img src="images/tools/davinci-resolve.png" alt="DaVinci Resolve" class="skill-icon"
+                            loading="lazy">
+                    </picture>
                     <div class="skill-name">DaVinci Resolve</div>
                     <div class="skill-desc">Editing & Grading</div>
                 </div>
                 <div class="skill-card">
                     <picture>
-                    <source srcset="images/tools/suno.webp" type="image/webp">
-                    <img src="images/tools/suno.png" alt="SUNO Pro" class="skill-icon" loading="lazy">
-                </picture>
+                        <source srcset="images/tools/suno.webp" type="image/webp">
+                        <img src="images/tools/suno.png" alt="SUNO Pro" class="skill-icon" loading="lazy">
+                    </picture>
                     <div class="skill-name">SUNO Pro</div>
                     <div class="skill-desc">Music Generation</div>
                 </div>
@@ -195,15 +208,42 @@
     </section>
 
     <footer>
-        <div style="margin-bottom: 12px;"><picture>
-                    <source srcset="images/logo.webp" type="image/webp">
-                    <img src="images/logo.png" alt="Logo"
-                style="width: 40px; height: 40px; border-radius: 50%; opacity: 0.7;" loading="lazy">
-                </picture></div>
+        <div style="margin-bottom: 12px;">
+            <picture>
+                <source srcset="images/logo.webp" type="image/webp">
+                <img src="images/logo.png" alt="Logo"
+                    style="width: 40px; height: 40px; border-radius: 50%; opacity: 0.7;" loading="lazy">
+            </picture>
+        </div>
         <p>&copy; 2025 Creative Portfolio | Tharindu Athapaththu</p>
     </footer>
 
     <script src="js/main.js"></script>
+    <script>
+        // Lightning reveal flicker — every 5 seconds
+        (function () {
+            const container = document.getElementById('propicContainer');
+            if (!container) return;
+
+            function lightning() {
+                // Don't flicker if user is already hovering
+                if (container.matches(':hover')) return;
+
+                container.classList.add('lightning');
+
+                // Remove after the animation completes
+                setTimeout(() => {
+                    container.classList.remove('lightning');
+                }, 600);
+            }
+
+            // Start the cycle after a short initial delay
+            setTimeout(() => {
+                lightning();
+                setInterval(lightning, 5000);
+            }, 3000);
+        })();
+    </script>
 </body>
 
 </html>
