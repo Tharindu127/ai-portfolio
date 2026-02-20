@@ -12,7 +12,8 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <div class="logo">THARINDU ATHAPATHTHU</div>
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" class="logo-img">THARINDU
+                ATHAPATHTHU</a>
             <div class="hamburger"
                 onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
                 <span></span><span></span><span></span>
@@ -29,7 +30,7 @@
     <section class="page-header">
         <div class="container">
             <h1>About Me</h1>
-            <p>I imagine worlds — and use AI to make them real</p>
+            <p>I imagine worlds and use AI to make them real</p>
         </div>
     </section>
 
@@ -37,17 +38,24 @@
         <div class="container">
 
             <!-- Intro -->
-            <div class="about-intro fade-in">
-                <p>I'm <strong>Tharindu Athapaththu</strong> — an imaginor and creator based in
-                    Colombo, Sri Lanka. I see vivid worlds in my mind — ancient romances, neon-lit fantasies,
-                    culturally rich cinematic stories — and I use AI tools to bring them to life.
-                    From image generation to video, music, and post-production, every tool is a brush
-                    that turns imagination into reality.
-                </p>
-                <p>With a background in Software Engineering at <strong>Arimac Digital</strong>, I bring systematic
-                    precision to every creative project — treating prompts as screenplays and iterations as
-                    refinement. The result is AI-crafted content that rivals traditional production quality,
-                    powered not just by technology, but by vision.</p>
+            <div class="about-intro fade-in"
+                style="display: flex; flex-direction: column; align-items: center; gap: 2rem;">
+                <div style="flex-shrink: 0;">
+                    <img src="images/propic.png" alt="Tharindu Athapaththu"
+                        style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 3px solid var(--primary); box-shadow: 0 0 20px rgba(0, 209, 178, 0.3);">
+                </div>
+                <div>
+                    <p>I'm <strong>Tharindu Athapaththu</strong>, an imaginor and creator based in
+                        Colombo, Sri Lanka. I see vivid worlds in my mind: ancient romances, neon-lit fantasies,
+                        culturally rich cinematic stories. Then I use AI tools to bring them to life.
+                        From image generation to video, music, and post-production, every tool is a brush
+                        that turns imagination into reality.
+                    </p>
+                    <p>With a background in Software Engineering at <strong>Arimac Digital</strong>, I bring systematic
+                        precision to every creative project. I treat prompts like screenplays and iterations like
+                        refinement passes. The result is AI-crafted content that rivals traditional production quality,
+                        powered not just by technology, but by vision.</p>
+                </div>
             </div>
 
             <!-- Creative Philosophy -->
@@ -61,8 +69,8 @@
                 </div>
                 <div class="philosophy-card">
                     <h4><i class="fas fa-sync-alt" style="margin-right: 8px;"></i> Iteration is Everything</h4>
-                    <p>The first generation is never the final one. Through systematic refinement — adjusting lighting,
-                        camera angles, expressions, and cultural details — each image evolves toward cinematic quality.
+                    <p>The first generation is never the final one. Through systematic refinement (adjusting lighting,
+                        camera angles, expressions, and cultural details) each image evolves toward cinematic quality.
                     </p>
                 </div>
                 <div class="philosophy-card">
@@ -163,6 +171,8 @@
     </section>
 
     <footer>
+        <div style="margin-bottom: 12px;"><img src="images/logo.png" alt="Logo"
+                style="width: 40px; height: 40px; border-radius: 50%; opacity: 0.7;"></div>
         <p>&copy; 2025 Creative Portfolio | Tharindu Athapaththu</p>
     </footer>
 

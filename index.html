@@ -12,7 +12,8 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <div class="logo">THARINDU ATHAPATHTHU</div>
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" class="logo-img">THARINDU
+                ATHAPATHTHU</a>
             <div class="hamburger"
                 onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('active')">
                 <span></span><span></span><span></span>
@@ -27,9 +28,7 @@
     </nav>
 
     <section class="hero">
-        <video autoplay muted loop playsinline class="hero-video">
-            <source src="images/hero-video.mp4" type="video/mp4">
-        </video>
+        <div class="hero-collage" id="heroCollage"></div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="glitch" data-text="I IMAGINE. I CREATE.">I IMAGINE. I CREATE.</h1>
@@ -122,6 +121,8 @@
     </section>
 
     <footer>
+        <div style="margin-bottom: 12px;"><img src="images/logo.png" alt="Logo"
+                style="width: 40px; height: 40px; border-radius: 50%; opacity: 0.7;"></div>
         <p>&copy; 2025 Creative Portfolio | Tharindu Athapaththu</p>
     </footer>
 
