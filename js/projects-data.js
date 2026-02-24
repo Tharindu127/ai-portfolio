@@ -19,11 +19,20 @@
 
 const PROJECTS = [
     {
+        id: 11,
+        title: "Come to the Moon Baby (The Flower Song)",
+        subtitle: "A dreamy 60s date turns into a cartoon universe — romance, fantasy, and a future montage.",
+        tag: "Retro Doo-wop × Cartoon",
+        badge: "Latest",
+        image: "image11",
+        youtubeId: "D3wAozVsyu4"
+    },
+    {
         id: 10,
         title: "Kathandare (Tokyo Legend)",
         subtitle: "A dramatic Japanese ancient romance where love transcends war, betrayal, and fate.",
         tag: "Arcane × Historical",
-        badge: "Latest",
+        badge: "Featured",
         image: "image10",
         youtubeId: "lrLXToiFsVw"
     },
